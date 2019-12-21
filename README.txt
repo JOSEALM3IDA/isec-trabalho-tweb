@@ -1,3 +1,9 @@
+Trabalho de TWEB Ângelo & Zé
+==========================
+
+Informação sobre o template usado em baixo.
+----------------------------------------------------------------
+
 Hotel Template Responsive
 ==========================
 
