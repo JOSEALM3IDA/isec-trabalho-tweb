@@ -250,6 +250,12 @@ p {
 /* Contact Form*/
 
 #contact-form {
+  .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
   .form-group {
     margin-bottom: 20px;
   }
@@ -257,12 +263,21 @@ p {
     display: block;
     margin-bottom: 5px;
   }
-  input,
   textarea {
     width: 100%;
     padding: 10px;
     border: 1px $color-w-2 solid;
     height: 200px;
+    &:focus {
+      outline: none;
+      border-color: $color-v-2;
+    }
+  }
+  input {
+    width: 50%;
+    padding: 10px;
+    border: 1px $color-w-2 solid;
+    height: 30px;
     &:focus {
       outline: none;
       border-color: $color-v-2;
