@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta
+      name="description"
+      content="Welcome to the most extraordinary Hotel In Colombia"
+    />
+
+    <meta
+      name="keywords"
+      content="Hotel, Colombia, Hotel in Colombia, New Colombia Hotel"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <title>QUERCUS | Associação Nacional de Conservação da Natureza</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo">
+            <a href="home.html"><img src="img/logowh.png"/></a>
+          </h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="whoweare.html">Quem Somos</a></li>
+            <li><a href="whatwedo.html">O Que Fazemos</a></li>
+            <li><a href="events.html">Eventos</a></li>
+            <li><a href="resources.html">Recursos</a></li>
+            <li><a class="current" href="contact.html">Contactos</a></li>
+            <li><a href="client.html">Área do Cliente</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">
+          <span class="text-primary">Fale</span> Connosco
+        </h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="gender">Sexo</label>
+            <input type="text" name="gender" id="gender" />
+          </div>
+          <div class="form-group">
+            <label for="id-card"
+              >Cartão de Cidadão ou Bilhete de Identidade</label
+            >
+            <input type="text" name="id-card" id="id-card" />
+          </div>
+          <div class="form-group">
+            <label for="age">Idade</label>
+            <input type="text" name="age" id="age" />
+          </div>
+          <div class="form-group">
+            <label for="address">Morada</label>
+            <input type="text" name="address" id="address" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Messagem</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Localização</h3>
+          <p>Quinta da Gruta, Rua João Maia, 540, Lisboa</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Número de telemóvel</h3>
+          <p>+351 222 011 065 / 931 620 212</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Endereço Email</h3>
+          <p>loja@quercus.pt</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="clr"></div>
+    <footer id="main-footer">
+      <p>Quercus &copy; 2019, All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
