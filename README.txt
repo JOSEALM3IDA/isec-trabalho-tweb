@@ -2,8 +2,6 @@ Trabalho de TWEB Ângelo & Zé
 ==========================
 
 Informação sobre o template usado em baixo.
-
-Tentativa de commit 123
 ----------------------------------------------------------------
 
 Hotel Template Responsive
