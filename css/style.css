@@ -32,9 +32,23 @@ p {
 /* Utility Classes*/
 .container {
   margin: auto;
-  max-width: 1100px;
+  max-width: 100%;
   overflow: auto;
   padding: 0 20px;
+}
+
+.flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexcontainer .box {
+  white-space: nowrap;
+}
+
+.flexcontainer .box p {
+  text-align: center;
 }
 
 .text-primary {
@@ -108,19 +122,9 @@ p {
   overflow: auto;
 }
 
-#navbar a {
-  color: #f2f2f2;
-}
-
 #navbar h1 {
   float: left;
   padding-top: 20px;
-}
-
-#navbar h1 img {
-  height: 50px;
-  padding: 0px;
-  margin: 0px;
 }
 
 #navbar ul {
@@ -133,6 +137,7 @@ p {
 }
 
 #navbar ul li a {
+  color: #f2f2f2;
   display: block;
   padding: 20px;
   text-align: center;
@@ -199,8 +204,8 @@ p {
   text-align: center;
 }
 
-.box i {
-  margin-bottom: 10px;
+#contactos {
+  color: #e8ffe7;
 }
 
 /* About Info*/
@@ -270,13 +275,20 @@ p {
   margin-bottom: 20px;
 }
 
+#contact-form .form-group #age {
+  padding-left: 10px;
+  padding-top: 1%;
+  width: 12%;
+}
+
 #contact-form label {
   display: block;
   margin-bottom: 5px;
 }
 
 #contact-form textarea {
-  width: 100%;
+  font-size: 1.3em;
+  width: 80%;
   padding: 10px;
   border: 1px #c7c7c7 solid;
   height: 200px;

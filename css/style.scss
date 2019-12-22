@@ -1,5 +1,6 @@
 /* colors */
 $color-bg: #134400;
+$color-v-0: #e8ffe7;
 $color-v-1: #5d8939;
 $color-v-2: #00a05b;
 $color-v-3: #bfffd2;
@@ -41,9 +42,19 @@ p {
 /* Utility Classes*/
 .container {
   margin: auto;
-  max-width: 1100px;
+  max-width: 100%;
   overflow: auto;
   padding: 0 20px;
+}
+
+.flexcontainer {
+  display: flex;
+  .box {
+    p {
+      text-align: center;
+    }
+    white-space: nowrap;
+  }
 }
 
 .text-primary {
@@ -115,17 +126,9 @@ p {
   background: $color-g-2;
   color: $color-w-1;
   overflow: auto;
-  a {
-    color: $color-w-1;
-  }
   h1 {
     float: left;
     padding-top: 20px;
-    img{
-      height: 50px;
-      padding: 0px;
-      margin: 0px;
-    }
   }
   ul {
     list-style: none;
@@ -133,6 +136,7 @@ p {
     li {
       float: left;
       a {
+        color: $color-w-1;
         display: block;
         padding: 20px;
         text-align: center;
@@ -196,9 +200,10 @@ p {
   width: 33.3%;
   padding: 50px;
   text-align: center;
-  i {
-    margin-bottom: 10px;
-  }
+}
+
+#contactos {
+  color: $color-v-0;
 }
 
 /* About Info*/
@@ -250,7 +255,7 @@ p {
 /* Contact Form*/
 
 #contact-form {
-  .column{
+  .column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -258,13 +263,19 @@ p {
   }
   .form-group {
     margin-bottom: 20px;
+    #age {
+      padding-left: 10px;
+      padding-top: 1%;
+      width: 12%;
+    }
   }
   label {
     display: block;
     margin-bottom: 5px;
   }
   textarea {
-    width: 100%;
+    font-size: 1.3em;
+    width: 80%;
     padding: 10px;
     border: 1px $color-w-2 solid;
     height: 200px;

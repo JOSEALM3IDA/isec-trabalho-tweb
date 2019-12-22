@@ -66,4 +66,20 @@
 #contact-info .box {
   border-bottom: #494949 dotted 1px;
 }
+
+input,
+textarea {
+  min-width: 100%;
+}
+
+#age {
+  min-width: 20%;
+}
+
+.flexcontainer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=mobile.css.map */

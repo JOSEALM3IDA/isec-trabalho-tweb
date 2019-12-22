@@ -69,3 +69,16 @@ $color-g-1: #494949;
     border-bottom: $color-g-1 dotted 1px;
   }
 }
+
+input,
+textarea {
+  min-width: 100%;
+}
+
+#age {
+  min-width: 20%;
+}
+
+.flexcontainer {
+  flex-direction: column;
+}
