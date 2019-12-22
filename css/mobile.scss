@@ -2,19 +2,21 @@
 $color-g-1: #494949;
 
 /* Navbar */
+
 #navbar {
   .logo {
     float: none;
     text-align: center;
   }
-  #navbar-inside{
+  #navbar-inside {
     display: none;
   }
-  #mobile-arrow{
+  #mobile-arrow {
     display: block;
     margin: auto;
     padding: 5px 0px;
-    filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg) brightness(113%) contrast(90%);
+    filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg)
+      brightness(113%) contrast(90%);
     width: 15px;
   }
   ul {
