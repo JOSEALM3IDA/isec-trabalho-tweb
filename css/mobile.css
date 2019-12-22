@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+#navbar #navbar-inside {
+  display: none;
+}
+
+#navbar #mobile-arrow {
+  display: block;
+  margin: auto;
+  padding: 5px 0px;
+  -webkit-filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg) brightness(113%) contrast(90%);
+          filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg) brightness(113%) contrast(90%);
+  width: 15px;
+}
+
 #navbar ul {
   float: none;
 }

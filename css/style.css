@@ -122,6 +122,10 @@ p {
   overflow: auto;
 }
 
+#navbar #mobile-arrow {
+  display: none;
+}
+
 #navbar h1 {
   float: left;
   padding-top: 20px;

@@ -126,6 +126,9 @@ p {
   background: $color-g-2;
   color: $color-w-1;
   overflow: auto;
+  #mobile-arrow{
+    display: none;
+ }
   h1 {
     float: left;
     padding-top: 20px;
