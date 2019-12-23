@@ -106,6 +106,10 @@ p {
   line-height: 1.2;
 }
 
+.link, .link:visited {
+  color: #00a05b;
+}
+
 /* Padding*/
 .py-1 {
   padding: 10px 0;
@@ -342,24 +346,24 @@ p {
 
 #registar,
 #voltar {
-  background-color: white;
+  background: #2c2c2c;
   color: #00a05b;
-  border: 1px solid #2c2c2c;
-  padding: 11px 20px;
   font-size: 20px;
 }
 
 #registar:hover,
 #voltar:hover {
-  color: white;
   background-color: #00a05b;
-  border: 1px solid white;
 }
 
-#voltar {
+#registar:hover a,
+#voltar:hover a {
+  color: white;
+}
+
+/* #voltar {
   padding: 5px 10px;
-}
-
+} */
 /* Footer*/
 #main-footer {
   text-align: center;

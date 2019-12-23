@@ -112,6 +112,10 @@ p {
   line-height: 1.2;
 }
 
+.link, .link:visited {
+  color: $color-v-2;
+}
+
 /* Padding*/
 .py {
   &-1 {
@@ -313,20 +317,20 @@ p {
 }
 #registar,
 #voltar {
-  background-color: white;
+  background: $color-g-2;
   color: $color-v-2;
-  border: 1px solid $color-g-2;
-  padding: 11px 20px;
   font-size: 20px;
   &:hover {
+    a {
     color: white;
+    }
     background-color: $color-v-2;
-    border: 1px solid white;
   }
 }
-#voltar {
+
+/* #voltar {
   padding: 5px 10px;
-}
+} */
 
 /* Footer*/
 #main-footer {
