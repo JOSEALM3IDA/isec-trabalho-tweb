@@ -37,8 +37,24 @@
 }
 
 #showcase .showcase-content {
-  padding-top: 170px;
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+
+#showcase .showcase-content .showcase-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#showcase .showcase-content .showcase-image img {
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
 }
 
 /* Home Info*/

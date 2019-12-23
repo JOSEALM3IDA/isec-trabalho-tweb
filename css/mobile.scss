@@ -35,8 +35,16 @@ $color-g-1: #494949;
 #showcase {
   height: 100%;
   .showcase-content {
-    padding-top: 170px;
+    padding-top: 30px;
     padding-bottom: 30px;
+    .showcase-image {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      img{
+        flex-basis: 400px;
+      }
+    }
   }
 }
 
