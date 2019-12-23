@@ -47,7 +47,7 @@ p {
   padding: 0 20px;
 }
 
-.required{
+.required {
   color: red;
 }
 
@@ -166,11 +166,11 @@ p {
     text-shadow: 0 0 1px rgb(0, 0, 0);
     padding-top: 100px;
     .showcase-image {
-      width:100%;
-      height:auto;
+      width: 100%;
+      height: auto;
       img {
         width: 50%;
-        height:auto;
+        height: auto;
       }
     }
     p {
@@ -263,9 +263,9 @@ p {
   }
 }
 
-/* Contact Form*/
-
-#contact-form {
+/* Contact & Login & Signup Form*/
+#contact-form,
+#login-form {
   .column {
     display: flex;
     flex-direction: column;
@@ -279,6 +279,10 @@ p {
       padding-top: 0;
       padding-bottom: 0;
       width: 60px;
+    }
+    #username,
+    #password {
+      width: 15%;
     }
   }
   label {
@@ -307,6 +311,22 @@ p {
     }
   }
 }
+#registar,
+#voltar {
+  background-color: white;
+  color: $color-v-2;
+  border: 1px solid $color-g-2;
+  padding: 11px 20px;
+  font-size: 20px;
+  &:hover {
+    color: white;
+    background-color: $color-v-2;
+    border: 1px solid white;
+  }
+}
+#voltar {
+  padding: 5px 10px;
+}
 
 /* Footer*/
 #main-footer {
@@ -314,4 +334,13 @@ p {
   background: $color-g-1;
   color: $color-w-1;
   padding: 20px;
+}
+#client-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: $color-g-1;
+  color: $color-w-1;
+  padding: 1rem;
 }

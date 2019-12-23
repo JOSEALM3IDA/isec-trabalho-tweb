@@ -2,7 +2,6 @@
 $color-g-1: #494949;
 
 /* Navbar */
-
 #navbar {
   .logo {
     float: none;
@@ -41,7 +40,7 @@ $color-g-1: #494949;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      img{
+      img {
         flex-basis: 400px;
       }
     }
@@ -97,4 +96,11 @@ textarea {
 
 .flexcontainer {
   flex-direction: column;
+}
+
+.cliente {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }

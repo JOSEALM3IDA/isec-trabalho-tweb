@@ -107,4 +107,11 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.cliente {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
 /*# sourceMappingURL=mobile.css.map */

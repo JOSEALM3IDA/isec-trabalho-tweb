@@ -268,8 +268,9 @@ p {
   border-radius: 50%;
 }
 
-/* Contact Form*/
-#contact-form .column {
+/* Contact & Login & Signup Form*/
+#contact-form .column,
+#login-form .column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,23 +285,34 @@ p {
           flex: 1;
 }
 
-#contact-form .form-group {
+#contact-form .form-group,
+#login-form .form-group {
   margin-bottom: 20px;
 }
 
-#contact-form .form-group #age {
+#contact-form .form-group #age,
+#login-form .form-group #age {
   padding-left: 10px;
   padding-top: 0;
   padding-bottom: 0;
   width: 60px;
 }
 
-#contact-form label {
+#contact-form .form-group #username,
+#contact-form .form-group #password,
+#login-form .form-group #username,
+#login-form .form-group #password {
+  width: 15%;
+}
+
+#contact-form label,
+#login-form label {
   display: block;
   margin-bottom: 5px;
 }
 
-#contact-form textarea {
+#contact-form textarea,
+#login-form textarea {
   font-size: 1.3em;
   width: 80%;
   padding: 10px;
@@ -308,21 +320,44 @@ p {
   height: 200px;
 }
 
-#contact-form textarea:focus {
+#contact-form textarea:focus,
+#login-form textarea:focus {
   outline: none;
   border-color: #00a05b;
 }
 
-#contact-form input {
+#contact-form input,
+#login-form input {
   width: 50%;
   padding: 10px;
   border: 1px #c7c7c7 solid;
   height: 30px;
 }
 
-#contact-form input:focus {
+#contact-form input:focus,
+#login-form input:focus {
   outline: none;
   border-color: #00a05b;
+}
+
+#registar,
+#voltar {
+  background-color: white;
+  color: #00a05b;
+  border: 1px solid #2c2c2c;
+  padding: 11px 20px;
+  font-size: 20px;
+}
+
+#registar:hover,
+#voltar:hover {
+  color: white;
+  background-color: #00a05b;
+  border: 1px solid white;
+}
+
+#voltar {
+  padding: 5px 10px;
 }
 
 /* Footer*/
@@ -331,5 +366,15 @@ p {
   background: #494949;
   color: #f2f2f2;
   padding: 20px;
+}
+
+#client-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #494949;
+  color: #f2f2f2;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

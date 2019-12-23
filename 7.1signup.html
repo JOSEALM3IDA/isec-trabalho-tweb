@@ -55,20 +55,17 @@
           </div>
         </nav>
       </header>
-      <section id="login-form" class="py-3">
+      <section id="contact-form" class="py-3">
         <div class="container">
           <h1 class="l-heading">
-            Área do <span class="text-primary">Cliente</span>
+            <span class="text-primary">Registar</span>
           </h1>
-          <p>
-            Por favor insira o utilizador e a palavra-passe. Se não tiver uma
-            conta, clique <a href="7.1signup.html">aqui</a> ou no botão abaixo
-            para se registar.
-          </p>
+          <a href="7client.html" class="btn" id="voltar">Voltar</a>
+          <p>Por favor insira a informação necessária para se registar.</p>
           <form action="process.php">
             <div class="container">
               <div class="form-group">
-                <label for="name"
+                <label for="username"
                   >Nome de <span class="text-primary">Utilizador</span
                   ><span class="required">*</span>
                 </label>
@@ -81,6 +78,18 @@
                 >
                 <input type="password" name="password" id="password" required />
               </div>
+              <div class="form-group">
+                <label for="user-email"
+                  >E-<span class="text-primary">mail</span
+                  ><span class="required">*</span>
+                </label>
+                <input
+                  type="user-email"
+                  name="user-email"
+                  id="user-email"
+                  required
+                />
+              </div>
             </div>
             <div class="form-group">
               <span
@@ -88,14 +97,12 @@
                 de preenchimento obrigatório.</span
               >
             </div>
-            <button type="submit" class="btn">Login</button>
-            <a href="7.1signup.html" class="btn" id="registar">Registar</a>
+            <button type="submit" class="btn">Registar</button>
           </form>
         </div>
       </section>
 
       <div class="clr"></div>
-      <div class="space"></div>
       <footer id="client-footer">
         <p>Quercus &copy; 2019, All Rights Reserved</p>
       </footer>
