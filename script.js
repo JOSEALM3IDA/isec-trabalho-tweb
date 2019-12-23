@@ -1,12 +1,12 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile-arrow");
-  let navbar = document.getElementById("navbar-inside");
-  let slide_img = document.getElementById("showcase");
 
   arrow.addEventListener("click", dropMenu);
 }
 
 function dropMenu() {
+  let navbar = document.getElementById("navbar-inside");
+
   if (this.style.transform == "scaleY(-1)") {
     this.style.transform = "scaleY(1)";
 
@@ -18,7 +18,7 @@ function dropMenu() {
   }
 }
 
-// Declaralão de variaveis para o slideshow
+// Declaração de variaveis para o slideshow
 var index_slide_img = 0;
 var slide_imgs = 3; // Numero de fotos a apresentar no slideshow
 
