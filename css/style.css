@@ -106,7 +106,8 @@ p {
   line-height: 1.2;
 }
 
-.link, .link:visited {
+.link,
+.link:visited {
   color: #00a05b;
 }
 
@@ -349,21 +350,15 @@ p {
   background: #2c2c2c;
   color: #00a05b;
   font-size: 20px;
+  padding: 11.5px 15px;
 }
 
 #registar:hover,
 #voltar:hover {
+  color: white;
   background-color: #00a05b;
 }
 
-#registar:hover a,
-#voltar:hover a {
-  color: white;
-}
-
-/* #voltar {
-  padding: 5px 10px;
-} */
 /* Footer*/
 #main-footer {
   text-align: center;
