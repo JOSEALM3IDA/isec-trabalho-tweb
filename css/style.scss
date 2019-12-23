@@ -155,15 +155,19 @@ p {
 
 /* Showcase*/
 #showcase {
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 600px;
   .showcase-content {
     color: $color-w-1;
     text-align: center;
-    padding-top: 170px;
-    h1 {
-      font-size: 60px;
-      line-height: 1.2em;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    padding-top: 100px;
+    .showcase-image {
+      width:100%;
+      height:auto;
+      img {
+        width: 50%;
+        height:auto;
+      }
     }
     p {
       padding-bottom: 20px;
@@ -268,8 +272,9 @@ p {
     margin-bottom: 20px;
     #age {
       padding-left: 10px;
-      padding-top: 1%;
-      width: 12%;
+      padding-top: 0;
+      padding-bottom: 0;
+      width: 60px;
     }
   }
   label {

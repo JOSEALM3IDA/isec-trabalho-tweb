@@ -85,10 +85,6 @@ textarea {
   min-width: 100%;
 }
 
-#age {
-  min-width: 20%;
-}
-
 .flexcontainer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
