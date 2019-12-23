@@ -57,12 +57,12 @@
         <h1 class="l-heading">
           <span class="text-primary">Fale</span> Connosco
         </h1>
-        <p>Por favor preencha o formulario abaixo para falar connosco</p>
+        <p>Por favor preencha o formulário abaixo para falar connosco.</p>
         <form action="process.php">
           <div class="flexcontainer">
             <div class="column">
               <div class="form-group">
-                <label for="name">Nome</label>
+                <label for="name">Nome <span class="required">*</span></label>
                 <input type="text" name="name" id="name" required />
               </div>
               <div class="form-group">
@@ -86,27 +86,30 @@
             </div>
             <div class="column">
               <div class="form-group">
-                <label for="age">Idade</label>
-                <input type="number" name="age" id="age" required />
+                <label for="age">Idade <span class="required">*</span></label>
+                <input type="number" name="age" id="age" pattern="[0-9]{3}" required />
               </div>
               <div class="form-group">
                 <label for="address">Local de residência</label>
                 <input type="text" name="address" id="address" />
               </div>
               <div class="form-group">
-                <label for="email">E-mail</label>
+                <label for="email">E-mail <span class="required">*</span></label>
                 <input type="email" name="email" id="email" required />
               </div>
             </div>
           </div>
           <div class="form-group">
-            <label for="message">Mensagem</label>
+            <label for="message">Mensagem <span class="required">*</span></label>
             <textarea
               name="message"
               id="message"
               maxlength="500"
               required
             ></textarea>
+          </div>
+          <div class="form-group">
+            <span>Os campos assinalados por <span class="required">*</span> são de preenchimento obrigatório.</span>
           </div>
           <button type="submit" class="btn">Enviar</button>
         </form>

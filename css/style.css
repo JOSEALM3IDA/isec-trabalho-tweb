@@ -37,6 +37,10 @@ p {
   padding: 0 20px;
 }
 
+.required {
+  color: red;
+}
+
 .flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
