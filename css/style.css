@@ -253,6 +253,7 @@ p {
 
 #contactos {
   color: #e8ffe7;
+  overflow: hidden;
 }
 
 /* About Info*/
