@@ -377,3 +377,13 @@ p {
   color: $color-w-1;
   padding: 1rem;
 }
+#cliente_div,
+#registar_div {
+  position: relative;
+  margin: 0;
+  padding-bottom: 31.9vh;
+  min-height: 100%;
+}
+#cliente_div {
+  padding-bottom: 48.1vh;
+}
