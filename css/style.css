@@ -378,17 +378,8 @@ p {
   background-color: #00a05b;
 }
 
-#registar {
-  position: relative;
-  top: 0.5px;
-}
-
 #voltar {
   float: left;
-}
-
-#voltar:after {
-  clear: both;
 }
 
 /* Footer*/

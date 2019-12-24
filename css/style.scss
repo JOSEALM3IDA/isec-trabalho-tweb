@@ -336,18 +336,12 @@ p {
 }
 #registar,
 #voltar {
-  background: $color-g-2;
-  color: $color-v-2;
-  font-size: 20px;
-  padding: 11.5px 15px;
   &:hover {
-    color: white;
-    background-color: $color-v-2;
+    span{
+      color: white;
+      background-color: $color-v-2;
+    }
   }
-}
-#registar {
-  position: relative;
-  top: 0.5px;
 }
 #voltar {
   float: left;
