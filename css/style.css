@@ -381,6 +381,10 @@ p {
   background-color: #00a05b;
 }
 
+#voltar button {
+  margin-bottom: 25px;
+}
+
 /* Footer*/
 #main-footer {
   text-align: center;
