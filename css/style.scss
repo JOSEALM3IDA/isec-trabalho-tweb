@@ -40,6 +40,13 @@ p {
 }
 
 /* Utility Classes*/
+
+// Left 20 px
+.l20px {
+  position: relative;
+  left: 20px;
+}
+
 .container {
   margin: auto;
   max-width: 100%;
@@ -192,7 +199,7 @@ p {
     &-img {
       float: left;
       width: 50%;
-      background: url("../img/photo-1.jpg") no-repeat;
+      background: url("../img/photo-1.jpg") center/cover;
       min-height: 100%;
     }
     &-content {
@@ -337,6 +344,10 @@ p {
     color: white;
     background-color: $color-v-2;
   }
+}
+#registar {
+  position: relative;
+  top: 0.5px;
 }
 #voltar {
   float: left;

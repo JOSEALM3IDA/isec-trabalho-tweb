@@ -30,6 +30,11 @@ p {
 }
 
 /* Utility Classes*/
+.l20px {
+  position: relative;
+  left: 20px;
+}
+
 .container {
   margin: auto;
   max-width: 100%;
@@ -196,7 +201,7 @@ p {
 #home_info .info-img {
   float: left;
   width: 50%;
-  background: url("../img/photo-1.jpg") no-repeat;
+  background: url("../img/photo-1.jpg") center/cover;
   min-height: 100%;
 }
 
@@ -371,6 +376,11 @@ p {
 #voltar:hover span {
   color: white;
   background-color: #00a05b;
+}
+
+#registar {
+  position: relative;
+  top: 0.5px;
 }
 
 #voltar {
