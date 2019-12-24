@@ -222,6 +222,18 @@ p {
   text-align: center;
 }
 
+.box img {
+  width: 100px;
+  margin-bottom: 25px;
+  -webkit-filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg) brightness(93%) contrast(88%);
+          filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg) brightness(93%) contrast(88%);
+}
+
+.box img[src="svg/euro_tag.svg"] {
+  -webkit-filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg) brightness(90%) contrast(70%);
+          filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg) brightness(90%) contrast(70%);
+}
+
 #contactos {
   color: #e8ffe7;
 }
