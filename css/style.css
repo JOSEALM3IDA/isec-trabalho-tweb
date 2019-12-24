@@ -367,22 +367,18 @@ p {
   border-color: #00a05b;
 }
 
-#registar,
-#voltar {
-  background: #2c2c2c;
-  color: #00a05b;
-  font-size: 20px;
-  padding: 11.5px 15px;
-}
-
-#registar:hover,
-#voltar:hover {
+#registar:hover span,
+#voltar:hover span {
   color: white;
   background-color: #00a05b;
 }
 
 #voltar {
   float: left;
+}
+
+#voltar:after {
+  clear: both;
 }
 
 /* Footer*/
