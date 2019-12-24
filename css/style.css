@@ -275,7 +275,8 @@ p {
 
 /* Contact & Login & Signup Form*/
 #contact-form .column,
-#login-form .column {
+#login-form .column,
+#signup-form .column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,12 +292,14 @@ p {
 }
 
 #contact-form .form-group,
-#login-form .form-group {
+#login-form .form-group,
+#signup-form .form-group {
   margin-bottom: 20px;
 }
 
 #contact-form .form-group #age,
-#login-form .form-group #age {
+#login-form .form-group #age,
+#signup-form .form-group #age {
   padding-left: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -306,18 +309,22 @@ p {
 #contact-form .form-group #username,
 #contact-form .form-group #password,
 #login-form .form-group #username,
-#login-form .form-group #password {
+#login-form .form-group #password,
+#signup-form .form-group #username,
+#signup-form .form-group #password {
   width: 15%;
 }
 
 #contact-form label,
-#login-form label {
+#login-form label,
+#signup-form label {
   display: block;
   margin-bottom: 5px;
 }
 
 #contact-form textarea,
-#login-form textarea {
+#login-form textarea,
+#signup-form textarea {
   font-size: 1.3em;
   width: 80%;
   padding: 10px;
@@ -326,13 +333,15 @@ p {
 }
 
 #contact-form textarea:focus,
-#login-form textarea:focus {
+#login-form textarea:focus,
+#signup-form textarea:focus {
   outline: none;
   border-color: #00a05b;
 }
 
 #contact-form input,
-#login-form input {
+#login-form input,
+#signup-form input {
   width: 50%;
   padding: 10px;
   border: 1px #c7c7c7 solid;
@@ -340,7 +349,8 @@ p {
 }
 
 #contact-form input:focus,
-#login-form input:focus {
+#login-form input:focus,
+#signup-form input:focus {
   outline: none;
   border-color: #00a05b;
 }
@@ -357,6 +367,10 @@ p {
 #voltar:hover {
   color: white;
   background-color: #00a05b;
+}
+
+#voltar {
+  float: left;
 }
 
 /* Footer*/

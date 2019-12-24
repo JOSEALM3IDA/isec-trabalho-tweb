@@ -270,7 +270,8 @@ p {
 
 /* Contact & Login & Signup Form*/
 #contact-form,
-#login-form {
+#login-form,
+#signup-form {
   .column {
     display: flex;
     flex-direction: column;
@@ -327,6 +328,10 @@ p {
     background-color: $color-v-2;
   }
 }
+#voltar {
+  float: left;
+}
+
 /* Footer*/
 #main-footer {
   text-align: center;
