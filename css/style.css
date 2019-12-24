@@ -325,10 +325,13 @@ p {
 
 #contact-form .form-group #username,
 #contact-form .form-group #password,
+#contact-form .form-group #user-email,
 #login-form .form-group #username,
 #login-form .form-group #password,
+#login-form .form-group #user-email,
 #signup-form .form-group #username,
-#signup-form .form-group #password {
+#signup-form .form-group #password,
+#signup-form .form-group #user-email {
   width: 15%;
 }
 
@@ -376,10 +379,6 @@ p {
 #voltar:hover span {
   color: white;
   background-color: #00a05b;
-}
-
-#voltar {
-  float: left;
 }
 
 /* Footer*/

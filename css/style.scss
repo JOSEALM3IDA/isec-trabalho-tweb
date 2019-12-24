@@ -304,7 +304,8 @@ p {
       width: 60px;
     }
     #username,
-    #password {
+    #password,
+    #user-email {
       width: 15%;
     }
   }
@@ -342,9 +343,6 @@ p {
       background-color: $color-v-2;
     }
   }
-}
-#voltar {
-  float: left;
 }
 
 /* Footer*/
