@@ -103,6 +103,8 @@ p {
 }
 
 .clr {
+  content: "";
+  display: table;
   clear: both;
 }
 
@@ -220,11 +222,21 @@ p {
 }
 
 /* Features */
+#features {
+  overflow: hidden;
+}
+
 .box {
   float: left;
   width: 33.3%;
   padding: 50px;
   text-align: center;
+  margin-bottom: -999px;
+  padding-bottom: 999px;
+}
+
+.box p {
+  margin-bottom: 25px;
 }
 
 .box img {
