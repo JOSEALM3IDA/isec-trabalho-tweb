@@ -116,4 +116,9 @@ textarea {
 #failed {
   width: 100%;
 }
+
+#username,
+#password {
+  width: 100%;
+}
 /*# sourceMappingURL=mobile.css.map */

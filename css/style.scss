@@ -60,7 +60,7 @@ p {
 }
 
 .required {
-  color: red;
+  color: $color-r-2;
 }
 
 .flexcontainer {
@@ -324,12 +324,6 @@ p {
       padding-bottom: 0;
       width: 60px;
     }
-    #username,
-    #password,
-    #useremail {
-      width: 20%;
-      min-width: 200px;
-    }
   }
   label {
     display: block;
@@ -357,6 +351,7 @@ p {
     }
   }
 }
+
 #registar,
 #voltar {
   &:hover {
@@ -404,5 +399,5 @@ p {
   min-height: 100%;
 }
 #cliente_div {
-  padding-bottom: 42.6vh;
+  padding-bottom: 46.6vh;
 }

@@ -47,7 +47,7 @@ p {
 }
 
 .required {
-  color: red;
+  color: #df0000;
 }
 
 .flexcontainer {
@@ -346,19 +346,6 @@ p {
   width: 60px;
 }
 
-#contact-form .form-group #username,
-#contact-form .form-group #password,
-#contact-form .form-group #useremail,
-#login-form .form-group #username,
-#login-form .form-group #password,
-#login-form .form-group #useremail,
-#signup-form .form-group #username,
-#signup-form .form-group #password,
-#signup-form .form-group #useremail {
-  width: 20%;
-  min-width: 200px;
-}
-
 #contact-form label,
 #login-form label,
 #signup-form label {
@@ -445,6 +432,6 @@ p {
 }
 
 #cliente_div {
-  padding-bottom: 42.6vh;
+  padding-bottom: 46.6vh;
 }
 /*# sourceMappingURL=style.css.map */

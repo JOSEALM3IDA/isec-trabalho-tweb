@@ -14,6 +14,7 @@ function login() {
     window.location.href = "1home.html";
   else {
     failed.classList.remove("invisible");
+    document.getElementById("cliente_div").style.paddingBottom = "42.5vh";
   }
 }
 
