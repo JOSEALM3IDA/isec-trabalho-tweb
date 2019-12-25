@@ -1,9 +1,14 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile-arrow");
   let registar_btn = document.getElementById("registar-btn");
+  let form = document.getElementById("formRegistar");
 
   arrow.addEventListener("click", dropMenu);
-  registar_btn.addEventListener("click", registar);
+  registar_btn.addEventListener("click", function() {
+    if (form.checkValidity()) {
+      registar();
+    }
+  });
 }
 
 function dropMenu() {
@@ -20,31 +25,28 @@ function dropMenu() {
   }
 }
 function registar() {
-  // Get the data from each element on the form.
-  const username = document.getElementById("username");
-  const password = document.getElementById("password");
-  const email = document.getElementById("useremail");
-
-  // This variable stores all the data.
   let data =
-    "\r" + username.value + "\r\n" + password.value + "\r\n" + email.value;
+    "<h2>" +
+    "Username: " +
+    username.value +
+    "<br>" +
+    "Password: " +
+    password.value +
+    "<br>" +
+    "Email: " +
+    useremail.value +
+    "</h2>";
 
-  // Convert the text to BLOB.
-  const textToBLOB = new Blob([data], { type: "text/plain" });
-  const sFileName = "formData.txt"; // The file to save the data.
+  let dataArray = [];
+  dataArray.push(username.value, password.value, useremail.value);
 
   let newLink = document.createElement("a");
-  newLink.download = sFileName;
 
-  if (window.webkitURL != null) {
-    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-  } else {
-    newLink.href = window.URL.createObjectURL(textToBLOB);
-    newLink.style.display = "none";
-    document.body.appendChild(newLink);
-  }
+  newLink.style.display = "none";
 
-  newLink.click();
+  var newWin = window.open("7.1.1signedup.html");
+
+  newWin.document.write(data + "<br><br><br>" + dataArray);
 }
 
 // Declaração de variaveis para o slideshow
