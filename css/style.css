@@ -348,14 +348,15 @@ p {
 
 #contact-form .form-group #username,
 #contact-form .form-group #password,
-#contact-form .form-group #user-email,
+#contact-form .form-group #useremail,
 #login-form .form-group #username,
 #login-form .form-group #password,
-#login-form .form-group #user-email,
+#login-form .form-group #useremail,
 #signup-form .form-group #username,
 #signup-form .form-group #password,
-#signup-form .form-group #user-email {
-  width: 15%;
+#signup-form .form-group #useremail {
+  width: 20%;
+  min-width: 200px;
 }
 
 #contact-form label,
@@ -412,8 +413,9 @@ p {
   width: 23em;
   text-align: center;
   padding: 5px;
-  background-color: #ff5656;
-  border: 10px solid #df0000;
+  background-color: #ff8181;
+  border: 1px solid #df0000;
+  border-radius: 10px;
 }
 
 /* Footer*/

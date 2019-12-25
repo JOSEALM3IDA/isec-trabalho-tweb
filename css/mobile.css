@@ -112,4 +112,8 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+#failed {
+  width: 100%;
+}
 /*# sourceMappingURL=mobile.css.map */

@@ -10,7 +10,7 @@ $color-g-2: #2c2c2c;
 $color-g-3: #a3a3a3;
 $color-w-1: #f2f2f2;
 $color-w-2: #c7c7c7;
-$color-r-1: #ff5656;
+$color-r-1: #ff8181;
 $color-r-2: #df0000;
 
 /* reset */
@@ -326,8 +326,9 @@ p {
     }
     #username,
     #password,
-    #user-email {
-      width: 15%;
+    #useremail {
+      width: 20%;
+      min-width: 200px;
     }
   }
   label {
@@ -375,7 +376,8 @@ p {
   text-align: center;
   padding: 5px;
   background-color: $color-r-1;
-  border: 10px solid $color-r-2; //wtf nao funciona help
+  border: 1px solid $color-r-2; //wtf nao funciona help
+  border-radius: 10px;
 }
 
 /* Footer*/
