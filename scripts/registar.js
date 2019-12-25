@@ -1,0 +1,37 @@
+function defineEvents() {
+  let registar_btn = document.getElementById("registar-btn");
+  let form = document.getElementById("formRegistar");
+
+  registar_btn.addEventListener("click", function() {
+    if (form.checkValidity()) {
+      registar();
+    }
+  });
+}
+
+function registar() {
+  let data =
+    "<h2>" +
+    "Username: " +
+    username.value +
+    "<br>" +
+    "Password: " +
+    password.value +
+    "<br>" +
+    "Email: " +
+    useremail.value +
+    "</h2>";
+
+  let dataArray = [];
+  dataArray.push(username.value, password.value, useremail.value);
+
+  let newLink = document.createElement("a");
+
+  newLink.style.display = "none";
+
+  var newWin = window.open("7.1.1signedup.html");
+
+  newWin.document.write(data + "<br><br><br>" + dataArray);
+}
+
+defineEvents(); //define events
