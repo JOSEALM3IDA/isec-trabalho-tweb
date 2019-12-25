@@ -30,8 +30,8 @@ p {
 }
 
 /* Utility Classes*/
-.none {
-  display: none;
+.invisible {
+  visibility: hidden;
 }
 
 .l20px {
@@ -443,6 +443,6 @@ p {
 }
 
 #cliente_div {
-  padding-bottom: 48.1vh;
+  padding-bottom: 42.6vh;
 }
 /*# sourceMappingURL=style.css.map */

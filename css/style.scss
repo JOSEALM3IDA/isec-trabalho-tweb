@@ -43,9 +43,8 @@ p {
 
 /* Utility Classes*/
 
-// Display none
-.none {
-  display: none;
+.invisible {
+  visibility: hidden;
 }
 // Left 20 px
 .l20px {
@@ -403,5 +402,5 @@ p {
   min-height: 100%;
 }
 #cliente_div {
-  padding-bottom: 48.1vh;
+  padding-bottom: 42.6vh;
 }

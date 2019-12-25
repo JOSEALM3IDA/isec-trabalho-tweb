@@ -12,7 +12,9 @@ function defineEvents() {
 function login() {
   if (username.value == "admin" && password.value == "admin")
     window.location.href = "1home.html";
-  else failed.classList.remove("none");
+  else {
+    failed.classList.remove("invisible");
+  }
 }
 
 defineEvents(); // Define events
