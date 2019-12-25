@@ -31,7 +31,7 @@ p {
 
 /* Utility Classes*/
 .invisible {
-  visibility: hidden;
+  display: none;
 }
 
 .l20px {
@@ -413,7 +413,7 @@ p {
   text-align: center;
   padding: 5px;
   background-color: #ff5656;
-  margin: 1px solid #df0000;
+  border: 10px solid #df0000;
 }
 
 /* Footer*/

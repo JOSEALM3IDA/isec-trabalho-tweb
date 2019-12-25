@@ -44,7 +44,7 @@ p {
 /* Utility Classes*/
 
 .invisible {
-  visibility: hidden;
+  display: none;
 }
 // Left 20 px
 .l20px {
@@ -375,7 +375,7 @@ p {
   text-align: center;
   padding: 5px;
   background-color: $color-r-1;
-  margin: 1px solid $color-r-2; //wtf nao funciona help
+  border: 10px solid $color-r-2; //wtf nao funciona help
 }
 
 /* Footer*/
