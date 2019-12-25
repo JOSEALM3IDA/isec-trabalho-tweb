@@ -1,7 +1,9 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile-arrow");
+  let registar_btn = document.getElementById("registar-btn");
 
   arrow.addEventListener("click", dropMenu);
+  registar_btn.addEventListener("click", registar);
 }
 
 function dropMenu() {
@@ -16,6 +18,33 @@ function dropMenu() {
 
     navbar.style.display = "inline";
   }
+}
+function registar() {
+  // Get the data from each element on the form.
+  const username = document.getElementById("username");
+  const password = document.getElementById("password");
+  const email = document.getElementById("useremail");
+
+  // This variable stores all the data.
+  let data =
+    "\r" + username.value + "\r\n" + password.value + "\r\n" + email.value;
+
+  // Convert the text to BLOB.
+  const textToBLOB = new Blob([data], { type: "text/plain" });
+  const sFileName = "formData.txt"; // The file to save the data.
+
+  let newLink = document.createElement("a");
+  newLink.download = sFileName;
+
+  if (window.webkitURL != null) {
+    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+  } else {
+    newLink.href = window.URL.createObjectURL(textToBLOB);
+    newLink.style.display = "none";
+    document.body.appendChild(newLink);
+  }
+
+  newLink.click();
 }
 
 // Declaração de variaveis para o slideshow
