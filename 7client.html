@@ -66,10 +66,10 @@
             conta, clique <a href="7.1signup.html" class="link">aqui</a> ou no
             botão abaixo para se registar.
           </p>
-          <form action="process.php">
+          <form id="formLogin">
             <div class="container">
               <div class="form-group">
-                <label for="name"
+                <label for="username"
                   >Nome de <span class="text-primary">Utilizador </span
                   ><span class="required">*</span>
                 </label>
@@ -83,13 +83,16 @@
                 <input type="password" name="password" id="password" required />
               </div>
             </div>
+            <div class="none" id="failed">
+              Palavra-passe ou nome de utilizador errado.
+            </div>
             <div class="form-group">
               <span
                 >Os campos assinalados por <span class="required">*</span> são
                 de preenchimento obrigatório.</span
               >
             </div>
-            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn" id="login-btn">Login</button>
             <a href="7.1signup.html" id="registar"
               ><button type="button" class="btn">
                 <span class="link">Registar</span>
@@ -106,5 +109,6 @@
       </footer>
     </div>
     <script type="text/javascript" src="scripts/menu.js"></script>
+    <script type="text/javascript" src="scripts/login.js"></script>
   </body>
 </html>

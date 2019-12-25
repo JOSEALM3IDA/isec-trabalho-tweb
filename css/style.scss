@@ -10,6 +10,8 @@ $color-g-2: #2c2c2c;
 $color-g-3: #a3a3a3;
 $color-w-1: #f2f2f2;
 $color-w-2: #c7c7c7;
+$color-r-1: #ff5656;
+$color-r-2: #df0000;
 
 /* reset */
 * {
@@ -41,6 +43,10 @@ p {
 
 /* Utility Classes*/
 
+// Display none
+.none {
+  display: none;
+}
 // Left 20 px
 .l20px {
   position: relative;
@@ -73,7 +79,7 @@ p {
 }
 
 .lead {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .btn {
@@ -196,6 +202,10 @@ p {
 }
 
 /* Home Info*/
+#maisHome {
+  font-size: 25px;
+  padding: 15px 25px;
+}
 #home_info {
   height: 450px;
   .info {
@@ -360,6 +370,13 @@ p {
   button {
     margin-bottom: 25px;
   }
+}
+#failed {
+  width: 23em;
+  text-align: center;
+  padding: 5px;
+  background-color: $color-r-1;
+  margin: 1px solid $color-r-2; //wtf nao funciona help
 }
 
 /* Footer*/

@@ -1,4 +1,3 @@
-let showcase = document.getElementById("showcase");
 var index_slide_img = -1;
 var slide_imgs = 3; // Numero de fotos a apresentar no slideshow
 

@@ -30,6 +30,10 @@ p {
 }
 
 /* Utility Classes*/
+.none {
+  display: none;
+}
+
 .l20px {
   position: relative;
   left: 20px;
@@ -65,7 +69,7 @@ p {
 }
 
 .lead {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .btn {
@@ -197,6 +201,11 @@ p {
 }
 
 /* Home Info*/
+#maisHome {
+  font-size: 25px;
+  padding: 15px 25px;
+}
+
 #home_info {
   height: 450px;
 }
@@ -397,6 +406,14 @@ p {
 
 #voltar button {
   margin-bottom: 25px;
+}
+
+#failed {
+  width: 23em;
+  text-align: center;
+  padding: 5px;
+  background-color: #ff5656;
+  margin: 1px solid #df0000;
 }
 
 /* Footer*/

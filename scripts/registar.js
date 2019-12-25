@@ -25,13 +25,15 @@ function registar() {
   let dataArray = [];
   dataArray.push(username.value, password.value, useremail.value);
 
+  dataArray = "<h2>Data em   array: " + dataArray + "</h2>";
+
   let newLink = document.createElement("a");
 
   newLink.style.display = "none";
 
   var newWin = window.open("7.1.1signedup.html");
 
-  newWin.document.write(data + "<br><br><br>" + dataArray);
+  newWin.document.write(data + dataArray);
 }
 
 defineEvents(); //define events
