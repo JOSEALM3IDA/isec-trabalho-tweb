@@ -1,4 +1,4 @@
-var index_slide_img = 0;
+var index_slide_img = -1;
 var slide_imgs = 3; // Numero de fotos a apresentar no slideshow
 
 function slideshow() {
@@ -19,13 +19,4 @@ function slideshow() {
   setTimeout(slideshow, 5000);
 }
 
-function init() {
-  showcase.style.background =
-    "url('../img/slide-" +
-    index_slide_img +
-    ".jpg') no-repeat center center/cover";
-
-  setTimeout(slideshow, 5000);
-}
-
-init();
+slideshow();

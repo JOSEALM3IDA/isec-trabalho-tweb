@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Main Styling*/
@@ -163,7 +163,8 @@ p {
   text-align: center;
 }
 
-#navbar ul li a:hover, #navbar ul li a.current {
+#navbar ul li a:hover,
+#navbar ul li a.current {
   background: #494949;
   color: #00a05b;
 }
@@ -171,6 +172,7 @@ p {
 /* Showcase*/
 #showcase {
   height: 600px;
+  background: url("../img/slide-0.jpg") no-repeat center center/cover;
 }
 
 #showcase .showcase-content {
@@ -242,13 +244,17 @@ p {
 .box img {
   width: 100px;
   margin-bottom: 25px;
-  -webkit-filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg) brightness(93%) contrast(88%);
-          filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg) brightness(93%) contrast(88%);
+  -webkit-filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg)
+    brightness(93%) contrast(88%);
+  filter: invert(28%) sepia(0%) saturate(1327%) hue-rotate(249deg)
+    brightness(93%) contrast(88%);
 }
 
 .box img[src="svg/euro_tag.svg"] {
-  -webkit-filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg) brightness(90%) contrast(70%);
-          filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg) brightness(90%) contrast(70%);
+  -webkit-filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg)
+    brightness(90%) contrast(70%);
+  filter: invert(100%) sepia(0%) saturate(1699%) hue-rotate(151deg)
+    brightness(90%) contrast(70%);
 }
 
 #contactos {
@@ -312,13 +318,13 @@ p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 #contact-form .form-group,
