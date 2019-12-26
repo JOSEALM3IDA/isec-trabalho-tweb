@@ -130,6 +130,10 @@ p {
   font-style: italic;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Padding*/
 .py-1 {
   padding: 10px 0;

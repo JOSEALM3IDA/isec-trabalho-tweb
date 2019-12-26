@@ -78,9 +78,19 @@ $color-g-1: #494949;
   .info-left {
     float: none;
     width: 100%;
+    img{
+      width: 70%;
+    }
   }
   .info-left {
     margin-top: 30px;
+  }
+}
+
+#principles {
+  .text-primary::after{
+    content: "\A";
+    white-space: pre;
   }
 }
 
