@@ -122,6 +122,14 @@ p {
   color: #00a05b;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 /* Padding*/
 .py-1 {
   padding: 10px 0;
@@ -276,7 +284,7 @@ p {
 #about-info .info-right img {
   display: block;
   margin: auto;
-  width: 70%;
+  width: 45%;
   border-radius: 50%;
 }
 

@@ -131,6 +131,14 @@ p {
   color: $color-v-2;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
 /* Padding*/
 .py {
   &-1 {
@@ -270,7 +278,7 @@ p {
       img {
         display: block;
         margin: auto;
-        width: 70%;
+        width: 45%;
         border-radius: 50%;
       }
     }
