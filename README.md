@@ -4,7 +4,7 @@ Trabalho de TWEB Ângelo & Zé
 Informação sobre o template usado em baixo.
 ----------------------------------------------------------------
 
-Hotel Template Responsive
+[Hotel Template Responsive](https://github.com/Shvana/Hotel_Website)
 ==========================
 
 [![image](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://fsfe.org/campaigns/gplv3/gplv3.es.html)
