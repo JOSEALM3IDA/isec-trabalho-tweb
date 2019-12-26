@@ -74,6 +74,7 @@ $color-g-1: #494949;
 
 /* About Info*/
 #about-info {
+  text-align: center;
   .info-right,
   .info-left {
     float: none;
@@ -88,6 +89,7 @@ $color-g-1: #494949;
 }
 
 #principles {
+  text-align: center;
   .text-primary::after{
     content: "\A";
     white-space: pre;

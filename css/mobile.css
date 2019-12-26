@@ -83,6 +83,10 @@
 }
 
 /* About Info*/
+#about-info {
+  text-align: center;
+}
+
 #about-info .info-right,
 #about-info .info-left {
   float: none;
@@ -96,6 +100,10 @@
 
 #about-info .info-left {
   margin-top: 30px;
+}
+
+#principles {
+  text-align: center;
 }
 
 #principles .text-primary::after {
