@@ -306,14 +306,12 @@ p {
 
 #contactos .column {
   text-align: center;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 
 #contactos img {
-  margin: 25px auto 25px auto;
+  margin: 0 auto 25px auto;
   width: 100px;
-  /* filter: invert(92%) sepia(18%) saturate(0%)
-        hue-rotate(253deg) brightness(85%) contrast(88%); */
   -webkit-filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg) brightness(88%) contrast(101%);
           filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg) brightness(88%) contrast(101%);
 }

@@ -14,6 +14,8 @@ $color-w-2: #c7c7c7;
 $color-r-1: #ff8181;
 $color-r-2: #df0000;
 
+// filter calculator: https://codepen.io/sosuke/pen/Pjoqqp
+
 /* reset */
 * {
   margin: 0;
@@ -289,15 +291,13 @@ p {
   overflow: hidden;
   .column {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
   }
   img {
-    margin: 25px auto 25px auto;
+    margin: 0 auto 25px auto;
     width: 100px;
-    /* filter: invert(92%) sepia(18%) saturate(0%)
-        hue-rotate(253deg) brightness(85%) contrast(88%); */ //cor branca
     filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg)
-      brightness(88%) contrast(101%); //cor verde
+      brightness(88%) contrast(101%);
   }
 }
 
