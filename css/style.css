@@ -304,6 +304,13 @@ p {
   overflow: hidden;
 }
 
+#contactos .box img {
+  /* filter: invert(92%) sepia(18%) saturate(0%)
+        hue-rotate(253deg) brightness(85%) contrast(88%); */
+  -webkit-filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg) brightness(88%) contrast(101%);
+          filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg) brightness(88%) contrast(101%);
+}
+
 /* Quem Somos */
 #principles {
   color: white;
