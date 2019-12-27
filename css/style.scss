@@ -287,13 +287,19 @@ p {
 #contactos {
   color: $color-v-0;
   overflow: hidden;
-  .box {
-    img{
-      /* filter: invert(92%) sepia(18%) saturate(0%)
+  .column {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  img {
+    position: relative;
+    left: 35%;
+    padding: 50px 0;
+    width: 33.3%;
+    /* filter: invert(92%) sepia(18%) saturate(0%)
         hue-rotate(253deg) brightness(85%) contrast(88%); */ //cor branca
-      filter: invert(47%) sepia(33%) saturate(5926%)
-        hue-rotate(129deg) brightness(88%) contrast(101%); //cor verde
-    }
+    filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg)
+      brightness(88%) contrast(101%); //cor verde
   }
 }
 

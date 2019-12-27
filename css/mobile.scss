@@ -100,9 +100,13 @@ $color-g-1: #494949;
   text-align: center;
 }
 
-#contact-info {
-  .box {
+#contactos {
+  .column {
     border-bottom: $color-g-1 dotted 1px;
+  }
+  img {
+    width: 20%;
+    left: 40%;
   }
 }
 

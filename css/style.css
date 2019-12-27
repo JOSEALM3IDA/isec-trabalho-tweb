@@ -304,7 +304,16 @@ p {
   overflow: hidden;
 }
 
-#contactos .box img {
+#contactos .column {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#contactos img {
+  position: relative;
+  left: 35%;
+  padding: 50px 0;
+  width: 33.3%;
   /* filter: invert(92%) sepia(18%) saturate(0%)
         hue-rotate(253deg) brightness(85%) contrast(88%); */
   -webkit-filter: invert(47%) sepia(33%) saturate(5926%) hue-rotate(129deg) brightness(88%) contrast(101%);
