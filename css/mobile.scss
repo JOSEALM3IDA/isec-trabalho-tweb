@@ -79,7 +79,7 @@ $color-g-1: #494949;
   .info-left {
     float: none;
     width: 100%;
-    img{
+    img {
       width: 70%;
     }
   }
@@ -90,7 +90,7 @@ $color-g-1: #494949;
 
 #principles {
   text-align: center;
-  .text-primary::after{
+  .text-primary::after {
     content: "\A";
     white-space: pre;
   }

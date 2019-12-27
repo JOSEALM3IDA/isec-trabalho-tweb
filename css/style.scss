@@ -8,6 +8,7 @@ $color-v-4: #007c46;
 $color-g-1: #494949;
 $color-g-2: #2c2c2c;
 $color-g-3: #a3a3a3;
+$color-g-3: #202020;
 $color-w-1: #f2f2f2;
 $color-w-2: #c7c7c7;
 $color-r-1: #ff8181;
@@ -105,6 +106,11 @@ p {
     background: $color-g-2;
     color: $color-bg;
   }
+  &-media {
+    background-color: $color-g-3;
+    color: white;
+    border-top: 2px solid white;
+  }
   &-light {
     background: $color-w-1;
     color: $color-g-2;
@@ -131,15 +137,15 @@ p {
   color: $color-v-2;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -281,20 +287,21 @@ p {
       min-height: 100%;
       img {
         display: block;
+        position: relative;
         margin: auto;
-        width: 45%;
+        width: 80%;
         border-radius: 50%;
+        border: 3px solid white;
       }
     }
     &-left {
-      float: left;
       width: 50%;
-      min-height: 100%;
+      float: left;
     }
   }
 }
 
-/* Testimonial*/
+/* why is this here */
 #testimonials {
   height: 100%;
   background: url("img/test-bg.jpg") no-repeat center center/cover;
