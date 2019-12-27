@@ -245,24 +245,33 @@ p {
 }
 
 #home_info {
-  height: 450px;
+  border-top: 3px solid black;
 }
 
-#home_info .info-img {
-  float: left;
-  width: 50%;
-  background: url("../img/photo-1.jpg") center/cover;
-  min-height: 100%;
+#home_info img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#home_info #read-mais {
+  margin: auto;
+  width: 200px;
 }
 
 #home_info .info-content {
+  font-size: 20px;
   float: right;
-  width: 50%;
-  height: 100%;
+  margin-top: 4%;
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
   background-color: #f2f2f2;
+}
+
+#home_info .info-content h1 {
+  font-size: 2em;
 }
 
 #home_info .info-content p {

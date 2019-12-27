@@ -64,10 +64,10 @@
 
 /* Home Info*/
 #home_info {
-  height: 50%;
+  border-bottom: 1px solid black;
 }
 
-#home_info .info-img {
+#home_info img {
   display: none;
 }
 

@@ -54,15 +54,13 @@ $color-g-1: #494949;
 
 /* Home Info*/
 #home_info {
-  height: 50%;
-  .info {
-    &-img {
-      display: none;
-    }
-    &-content {
-      float: none;
-      width: 100%;
-    }
+  border-bottom: 1px solid black;
+  img {
+    display: none;
+  }
+  .info-content {
+    float: none;
+    width: 100%;
   }
 }
 
