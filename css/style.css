@@ -311,7 +311,7 @@ p {
 
 #contactos img {
   position: relative;
-  left: 35%;
+  margin: 0 auto;
   padding: 50px 0;
   width: 33.3%;
   /* filter: invert(92%) sepia(18%) saturate(0%)
