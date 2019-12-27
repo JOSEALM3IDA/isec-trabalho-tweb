@@ -30,6 +30,21 @@ p {
 }
 
 /* Utility Classes*/
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .invisible {
   display: none;
 }
@@ -97,8 +112,13 @@ p {
 }
 
 .bg-media {
-  background-color: #202020;
-  color: white;
+  background: #4d4d4d;
+  color: #f2f2f2;
+}
+
+.bg-white {
+  background-color: white;
+  color: #2c2c2c;
   border-top: 2px solid white;
 }
 
@@ -284,24 +304,33 @@ p {
   overflow: hidden;
 }
 
-/* About Info*/
+/* Quem Somos */
+#principles {
+  color: white;
+}
+
 #about-info .info-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: white;
   float: right;
-  width: 50%;
-  min-height: 100%;
 }
 
 #about-info .info-right img {
-  display: block;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90%;
   margin: auto;
-  width: 80%;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 100%;
+  border: 5px solid #007c46;
 }
 
 #about-info .info-left {
-  width: 50%;
+  padding: 1.1%;
+  padding-left: 2.5%;
   float: left;
 }
 
@@ -333,23 +362,6 @@ p {
 }
 
 /* Contact & Login & Signup Form*/
-#contact-form .column,
-#login-form .column,
-#signup-form .column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
 #contact-form .form-group,
 #login-form .form-group,
 #signup-form .form-group {

@@ -8,7 +8,7 @@ $color-v-4: #007c46;
 $color-g-1: #494949;
 $color-g-2: #2c2c2c;
 $color-g-3: #a3a3a3;
-$color-g-3: #202020;
+$color-g-4: #4d4d4d;
 $color-w-1: #f2f2f2;
 $color-w-2: #c7c7c7;
 $color-r-1: #ff8181;
@@ -43,6 +43,13 @@ p {
 }
 
 /* Utility Classes*/
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
 
 .invisible {
   display: none;
@@ -107,8 +114,12 @@ p {
     color: $color-bg;
   }
   &-media {
-    background-color: $color-g-3;
-    color: white;
+    background: $color-g-4;
+    color: $color-w-1;
+  }
+  &-white {
+    background-color: white;
+    color: $color-g-2;
     border-top: 2px solid white;
   }
   &-light {
@@ -278,24 +289,28 @@ p {
   overflow: hidden;
 }
 
-/* About Info*/
+/* Quem Somos */
+#principles {
+  color: white;
+}
 #about-info {
   .info {
     &-right {
+      display: flex;
+      height: 100%;
+      background-color: white;
       float: right;
-      width: 50%;
-      min-height: 100%;
       img {
-        display: block;
-        position: relative;
+        display: flex;
+        max-width: 90%;
         margin: auto;
-        width: 80%;
-        border-radius: 50%;
-        border: 3px solid white;
+        border-radius: 100%;
+        border: 5px solid $color-v-4;
       }
     }
     &-left {
-      width: 50%;
+      padding: 1.1%;
+      padding-left: 2.5%;
       float: left;
     }
   }
@@ -329,12 +344,6 @@ p {
 #contact-form,
 #login-form,
 #signup-form {
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
   .form-group {
     margin-bottom: 20px;
     #age {
