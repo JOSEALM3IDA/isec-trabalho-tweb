@@ -491,20 +491,60 @@ p {
   border-color: #00a05b;
 }
 
-#contact-form input,
-#login-form input,
-#signup-form input {
+#contact-form #name,
+#contact-form #id-card,
+#contact-form #address,
+#contact-form #email,
+#contact-form #age,
+#login-form #name,
+#login-form #id-card,
+#login-form #address,
+#login-form #email,
+#login-form #age,
+#signup-form #name,
+#signup-form #id-card,
+#signup-form #address,
+#signup-form #email,
+#signup-form #age {
   width: 50%;
   padding: 10px;
   border: 1px #c7c7c7 solid;
   height: 30px;
 }
 
-#contact-form input:focus,
-#login-form input:focus,
-#signup-form input:focus {
+#contact-form #name:focus,
+#contact-form #id-card:focus,
+#contact-form #address:focus,
+#contact-form #email:focus,
+#contact-form #age:focus,
+#login-form #name:focus,
+#login-form #id-card:focus,
+#login-form #address:focus,
+#login-form #email:focus,
+#login-form #age:focus,
+#signup-form #name:focus,
+#signup-form #id-card:focus,
+#signup-form #address:focus,
+#signup-form #email:focus,
+#signup-form #age:focus {
   outline: none;
   border-color: #00a05b;
+}
+
+#contact-form #username,
+#contact-form #password,
+#contact-form #useremail,
+#login-form #username,
+#login-form #password,
+#login-form #useremail,
+#signup-form #username,
+#signup-form #password,
+#signup-form #useremail {
+  width: 15%;
+  padding: 10px;
+  border: 1px #c7c7c7 solid;
+  height: 30px;
+  min-width: 200px;
 }
 
 #registar:hover span,

@@ -416,7 +416,11 @@ p {
       border-color: $color-v-2;
     }
   }
-  input {
+  #name,
+  #id-card,
+  #address,
+  #email,
+  #age {
     width: 50%;
     padding: 10px;
     border: 1px $color-w-2 solid;
@@ -425,6 +429,15 @@ p {
       outline: none;
       border-color: $color-v-2;
     }
+  }
+  #username,
+  #password,
+  #useremail {
+    width: 15%;
+    padding: 10px;
+    border: 1px $color-w-2 solid;
+    height: 30px;
+    min-width: 200px;
   }
 }
 
