@@ -12,8 +12,11 @@ $color-g-1: #494949;
     float: none;
     text-align: center;
   }
-  #navbar-inside {
+  .column {
     display: none;
+  }
+  #logo {
+    display: inline;
   }
   #mobile-arrow {
     display: block;
@@ -23,15 +26,9 @@ $color-g-1: #494949;
       brightness(113%) contrast(90%);
     width: 15px;
   }
-  ul {
-    float: none;
-    li {
-      float: none;
-      a {
-        padding: 5px;
-        border-bottom: $color-g-1 dotted 1px;
-      }
-    }
+  a {
+    padding: 5px;
+    border-bottom: $color-g-1 dotted 1px;
   }
 }
 

@@ -179,30 +179,62 @@ p {
 #navbar {
   background: $color-g-2;
   color: $color-w-1;
-  overflow: auto;
   #mobile-arrow {
     display: none;
   }
-  h1 {
-    float: left;
-    padding-top: 20px;
+  #logo a {
+    font-weight: bold;
+    color: $color-v-2;
+    font-size: 21px;
   }
-  ul {
-    list-style: none;
-    float: right;
-    li {
-      float: left;
-      a {
-        color: $color-w-1;
-        display: block;
-        padding: 20px;
-        text-align: center;
-        &:hover,
-        &.current {
-          background: $color-g-1;
-          color: $color-v-2;
-        }
-      }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: $color-w-1;
+    display: block;
+    &:hover,
+    &.current {
+      background: $color-g-1;
+      color: $color-v-2;
+    }
+    span {
+      position: relative;
+      top: 8px;
+    }
+  }
+  .flexcontainer {
+    align-items: stretch;
+    justify-content: space-evenly;
+    :nth-child(1) {
+      flex-grow: 1;
+    }
+    :nth-child(2) {
+      flex-grow: 2;
+    }
+    :nth-child(3) {
+      flex-grow: 1;
+    }
+    :nth-child(4) {
+      flex-grow: 1;
+    }
+    :nth-child(5) {
+      flex-grow: 1;
+    }
+    :nth-child(6) {
+      flex-grow: 0.8;
+    }
+    :nth-child(7) {
+      flex-grow: 0.8;
+    }
+    :nth-child(8) {
+      flex-grow: 0.8;
+    }
+    :nth-child(9) {
+      flex-grow: 2;
     }
   }
 }
@@ -443,5 +475,5 @@ p {
   min-height: 100%;
 }
 #cliente_div {
-  padding-bottom: 46.6vh;
+  padding-bottom: 47.7vh;
 }

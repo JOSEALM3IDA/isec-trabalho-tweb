@@ -5,16 +5,22 @@ function defineEvents() {
 }
 
 function dropMenu() {
-  let navbar = document.getElementById("navbar-inside");
+  let navbar = document.getElementsByClassName("column");
+  let logo = document.getElementById("logo");
 
   if (this.style.transform == "scaleY(-1)") {
     this.style.transform = "scaleY(1)";
-
-    navbar.style.display = "none";
+    for (i = 0; i < navbar.length; i++) {
+      navbar[i].style.display = "none";
+    }
+    logo.style.display = "block";
   } else {
     this.style.transform = "scaleY(-1)";
 
-    navbar.style.display = "inline";
+    for (i = 0; i < navbar.length; i++) {
+      navbar[i].style.display = "inline";
+    }
+    logo.style.display = "block";
   }
 }
 
