@@ -53,6 +53,13 @@ p {
   flex: 1;
 }
 
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
 .invisible {
   display: none;
 }
@@ -182,7 +189,7 @@ p {
   #mobile-arrow {
     display: none;
   }
-  #logo a {
+  #logo {
     font-weight: bold;
     color: $color-v-2;
     font-size: 21px;
@@ -280,6 +287,7 @@ p {
     width: 200px;
   }
   .info-content {
+    order: 2;
     h1 {
       font-size: 2em;
     }

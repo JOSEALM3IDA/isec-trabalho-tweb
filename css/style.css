@@ -45,6 +45,21 @@ p {
           flex: 1;
 }
 
+.nav-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .invisible {
   display: none;
 }
@@ -183,7 +198,7 @@ p {
   display: none;
 }
 
-#navbar #logo a {
+#navbar #logo {
   font-weight: bold;
   color: #00a05b;
   font-size: 21px;
@@ -330,6 +345,9 @@ p {
 }
 
 #home_info .info-content {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   font-size: 20px;
   float: right;
   margin-top: 4%;

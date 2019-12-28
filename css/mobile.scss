@@ -12,11 +12,8 @@ $color-g-1: #494949;
     float: none;
     text-align: center;
   }
-  .column {
+  .nav-column {
     display: none;
-  }
-  #logo {
-    display: inline;
   }
   #mobile-arrow {
     display: block;
@@ -51,12 +48,12 @@ $color-g-1: #494949;
 
 /* Home Info*/
 #home_info {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   img {
-    display: none;
+    border-top: 2px solid black;
   }
   .info-content {
-    float: none;
+    order: 0;
     width: 100%;
   }
 }

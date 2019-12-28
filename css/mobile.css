@@ -10,12 +10,8 @@
   text-align: center;
 }
 
-#navbar .column {
+#navbar .nav-column {
   display: none;
-}
-
-#navbar #logo {
-  display: inline;
 }
 
 #navbar #mobile-arrow {
@@ -60,15 +56,17 @@
 
 /* Home Info*/
 #home_info {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 #home_info img {
-  display: none;
+  border-top: 2px solid black;
 }
 
 #home_info .info-content {
-  float: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
   width: 100%;
 }
 
