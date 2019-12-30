@@ -20,11 +20,16 @@ function defineEvents() {
     }
   }
 } */
+var x = window.matchMedia("(max-width: 768px)")
 
 var navbar = document.getElementsByClassName("nav-column");
 
-for (i = 0; i < navbar.length; i++) {
-  navbar[i].style.display = "none";
+function HiddenInTheBanks() {
+  if (x.matches) {
+    for (i = 0; i < navbar.length; i++) {
+      navbar[i].style.display = "none";
+    }
+  }
 }
 
 function dropMenu() {
@@ -43,3 +48,4 @@ function dropMenu() {
 }
 
 defineEvents();
+HiddenInTheBanks();
