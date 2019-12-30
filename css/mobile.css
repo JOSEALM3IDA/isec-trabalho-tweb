@@ -14,7 +14,7 @@
   display: none;
 }
 
-#navbar #mobile-arrow {
+#navbar #mobile_arrow {
   display: block;
   margin: auto;
   padding: 5px 0px;
@@ -113,11 +113,6 @@
   border-bottom: #494949 dotted 1px;
 }
 
-input,
-textarea {
-  min-width: 100%;
-}
-
 .flexcontainer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -129,8 +124,24 @@ textarea {
   width: 100%;
 }
 
-#username,
-#password {
-  width: 100%;
+#contact-form .form-group input,
+#contact-form .form-group select,
+#contact-form .form-group textarea,
+#contact-form .form-group #username,
+#contact-form .form-group #useremail,
+#contact-form .form-group #password,
+#login-form .form-group input,
+#login-form .form-group select,
+#login-form .form-group textarea,
+#login-form .form-group #username,
+#login-form .form-group #useremail,
+#login-form .form-group #password,
+#signup-form .form-group input,
+#signup-form .form-group select,
+#signup-form .form-group textarea,
+#signup-form .form-group #username,
+#signup-form .form-group #useremail,
+#signup-form .form-group #password {
+  min-width: 100%;
 }
 /*# sourceMappingURL=mobile.css.map */

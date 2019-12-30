@@ -15,7 +15,7 @@ $color-g-1: #494949;
   .nav-column {
     display: none;
   }
-  #mobile-arrow {
+  #mobile_arrow {
     display: block;
     margin: auto;
     padding: 5px 0px;
@@ -98,11 +98,6 @@ $color-g-1: #494949;
   }
 }
 
-input,
-textarea {
-  min-width: 100%;
-}
-
 .flexcontainer {
   flex-direction: column;
 }
@@ -110,7 +105,17 @@ textarea {
 #failed {
   width: 100%;
 }
-#username,
-#password {
-  width: 100%;
+#contact-form,
+#login-form,
+#signup-form {
+  .form-group {
+    input,
+    select,
+    textarea,
+    #username,
+    #useremail,
+    #password {
+      min-width: 100%;
+    }
+  }
 }

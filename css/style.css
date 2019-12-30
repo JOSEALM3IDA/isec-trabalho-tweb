@@ -76,6 +76,10 @@ p {
   padding: 0 20px;
 }
 
+.container#sign {
+  padding: 0;
+}
+
 .required {
   color: #df0000;
 }
@@ -92,6 +96,67 @@ p {
 
 .flexcontainer .box p {
   text-align: center;
+}
+
+.flexcontainer#nav {
+  padding: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexcontainer#nav :nth-child(1) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flexcontainer#nav :nth-child(2) {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.flexcontainer#nav :nth-child(3) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flexcontainer#nav :nth-child(4) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flexcontainer#nav :nth-child(5) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flexcontainer#nav :nth-child(6) {
+  -webkit-box-flex: 0.8;
+      -ms-flex-positive: 0.8;
+          flex-grow: 0.8;
+}
+
+.flexcontainer#nav :nth-child(7) {
+  -webkit-box-flex: 0.8;
+      -ms-flex-positive: 0.8;
+          flex-grow: 0.8;
+}
+
+.flexcontainer#nav :nth-child(8) {
+  -webkit-box-flex: 0.8;
+      -ms-flex-positive: 0.8;
+          flex-grow: 0.8;
+}
+
+.flexcontainer#nav :nth-child(9) {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
 
 .text-primary {
@@ -194,7 +259,7 @@ p {
   color: #f2f2f2;
 }
 
-#navbar #mobile-arrow {
+#navbar #mobile_arrow {
   display: none;
 }
 
@@ -229,69 +294,6 @@ p {
 #navbar a span {
   position: relative;
   top: 8px;
-}
-
-#navbar .flexcontainer {
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#navbar .flexcontainer :nth-child(1) {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-#navbar .flexcontainer :nth-child(2) {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-}
-
-#navbar .flexcontainer :nth-child(3) {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-#navbar .flexcontainer :nth-child(4) {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-#navbar .flexcontainer :nth-child(5) {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-#navbar .flexcontainer :nth-child(6) {
-  -webkit-box-flex: 0.8;
-      -ms-flex-positive: 0.8;
-          flex-grow: 0.8;
-}
-
-#navbar .flexcontainer :nth-child(7) {
-  -webkit-box-flex: 0.8;
-      -ms-flex-positive: 0.8;
-          flex-grow: 0.8;
-}
-
-#navbar .flexcontainer :nth-child(8) {
-  -webkit-box-flex: 0.8;
-      -ms-flex-positive: 0.8;
-          flex-grow: 0.8;
-}
-
-#navbar .flexcontainer :nth-child(9) {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
 }
 
 /* Showcase*/
@@ -476,25 +478,37 @@ p {
   margin-bottom: 20px;
 }
 
-#contact-form .form-group #age,
-#login-form .form-group #age,
-#signup-form .form-group #age {
-  padding-left: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
-  width: 60px;
+#contact-form .form-group input,
+#contact-form .form-group select,
+#contact-form .form-group textarea,
+#login-form .form-group input,
+#login-form .form-group select,
+#login-form .form-group textarea,
+#signup-form .form-group input,
+#signup-form .form-group select,
+#signup-form .form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px #c7c7c7 solid;
+  height: 30px;
 }
 
-#contact-form label,
-#login-form label,
-#signup-form label {
-  display: block;
-  margin-bottom: 5px;
+#contact-form .form-group input:focus,
+#contact-form .form-group select:focus,
+#contact-form .form-group textarea:focus,
+#login-form .form-group input:focus,
+#login-form .form-group select:focus,
+#login-form .form-group textarea:focus,
+#signup-form .form-group input:focus,
+#signup-form .form-group select:focus,
+#signup-form .form-group textarea:focus {
+  outline: none;
+  border-color: #00a05b;
 }
 
-#contact-form textarea,
-#login-form textarea,
-#signup-form textarea {
+#contact-form .form-group textarea,
+#login-form .form-group textarea,
+#signup-form .form-group textarea {
   font-size: 1.3em;
   width: 80%;
   padding: 10px;
@@ -502,67 +516,38 @@ p {
   height: 200px;
 }
 
-#contact-form textarea:focus,
-#login-form textarea:focus,
-#signup-form textarea:focus {
-  outline: none;
-  border-color: #00a05b;
+#contact-form .form-group #gender,
+#login-form .form-group #gender,
+#signup-form .form-group #gender {
+  padding: 0px 8px;
+  width: 140px;
 }
 
-#contact-form #name,
-#contact-form #id-card,
-#contact-form #address,
-#contact-form #email,
-#contact-form #age,
-#login-form #name,
-#login-form #id-card,
-#login-form #address,
-#login-form #email,
-#login-form #age,
-#signup-form #name,
-#signup-form #id-card,
-#signup-form #address,
-#signup-form #email,
-#signup-form #age {
-  width: 50%;
-  padding: 10px;
-  border: 1px #c7c7c7 solid;
-  height: 30px;
+#contact-form .form-group #age,
+#login-form .form-group #age,
+#signup-form .form-group #age {
+  padding: 0 10px;
+  width: 60px;
 }
 
-#contact-form #name:focus,
-#contact-form #id-card:focus,
-#contact-form #address:focus,
-#contact-form #email:focus,
-#contact-form #age:focus,
-#login-form #name:focus,
-#login-form #id-card:focus,
-#login-form #address:focus,
-#login-form #email:focus,
-#login-form #age:focus,
-#signup-form #name:focus,
-#signup-form #id-card:focus,
-#signup-form #address:focus,
-#signup-form #email:focus,
-#signup-form #age:focus {
-  outline: none;
-  border-color: #00a05b;
-}
-
-#contact-form #username,
-#contact-form #password,
-#contact-form #useremail,
-#login-form #username,
-#login-form #password,
-#login-form #useremail,
-#signup-form #username,
-#signup-form #password,
-#signup-form #useremail {
+#contact-form .form-group #username,
+#contact-form .form-group #password,
+#contact-form .form-group #useremail,
+#login-form .form-group #username,
+#login-form .form-group #password,
+#login-form .form-group #useremail,
+#signup-form .form-group #username,
+#signup-form .form-group #password,
+#signup-form .form-group #useremail {
   width: 15%;
-  padding: 10px;
-  border: 1px #c7c7c7 solid;
-  height: 30px;
-  min-width: 200px;
+  min-width: 300px;
+}
+
+#contact-form label,
+#login-form label,
+#signup-form label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 #registar:hover span,

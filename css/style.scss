@@ -74,6 +74,9 @@ p {
   max-width: 100%;
   overflow: auto;
   padding: 0 20px;
+  &#sign {
+    padding: 0;
+  }
 }
 
 .required {
@@ -87,6 +90,37 @@ p {
       text-align: center;
     }
     white-space: nowrap;
+  }
+  &#nav {
+    padding: 0;
+    justify-content: space-evenly;
+    :nth-child(1) {
+      flex-grow: 1;
+    }
+    :nth-child(2) {
+      flex-grow: 2;
+    }
+    :nth-child(3) {
+      flex-grow: 1;
+    }
+    :nth-child(4) {
+      flex-grow: 1;
+    }
+    :nth-child(5) {
+      flex-grow: 1;
+    }
+    :nth-child(6) {
+      flex-grow: 0.8;
+    }
+    :nth-child(7) {
+      flex-grow: 0.8;
+    }
+    :nth-child(8) {
+      flex-grow: 0.8;
+    }
+    :nth-child(9) {
+      flex-grow: 2;
+    }
   }
 }
 
@@ -186,7 +220,7 @@ p {
 #navbar {
   background: $color-g-2;
   color: $color-w-1;
-  #mobile-arrow {
+  #mobile_arrow {
     display: none;
   }
   #logo {
@@ -211,37 +245,6 @@ p {
     span {
       position: relative;
       top: 8px;
-    }
-  }
-  .flexcontainer {
-    align-items: stretch;
-    justify-content: space-evenly;
-    :nth-child(1) {
-      flex-grow: 1;
-    }
-    :nth-child(2) {
-      flex-grow: 2;
-    }
-    :nth-child(3) {
-      flex-grow: 1;
-    }
-    :nth-child(4) {
-      flex-grow: 1;
-    }
-    :nth-child(5) {
-      flex-grow: 1;
-    }
-    :nth-child(6) {
-      flex-grow: 0.8;
-    }
-    :nth-child(7) {
-      flex-grow: 0.8;
-    }
-    :nth-child(8) {
-      flex-grow: 0.8;
-    }
-    :nth-child(9) {
-      flex-grow: 2;
     }
   }
 }
@@ -402,50 +405,44 @@ p {
 #signup-form {
   .form-group {
     margin-bottom: 20px;
+
+    input,
+    select,
+    textarea {
+      width: 50%;
+      padding: 10px;
+      border: 1px $color-w-2 solid;
+      height: 30px;
+      &:focus {
+        outline: none;
+        border-color: $color-v-2;
+      }
+    }
+    textarea {
+      font-size: 1.3em;
+      width: 80%;
+      padding: 10px;
+      border: 1px $color-w-2 solid;
+      height: 200px;
+    }
+    #gender {
+      padding: 0px 8px;
+      width: 140px;
+    }
     #age {
-      padding-left: 10px;
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0 10px;
       width: 60px;
+    }
+    #username,
+    #password,
+    #useremail {
+      width: 15%;
+      min-width: 300px;
     }
   }
   label {
     display: block;
     margin-bottom: 5px;
-  }
-  textarea {
-    font-size: 1.3em;
-    width: 80%;
-    padding: 10px;
-    border: 1px $color-w-2 solid;
-    height: 200px;
-    &:focus {
-      outline: none;
-      border-color: $color-v-2;
-    }
-  }
-  #name,
-  #id-card,
-  #address,
-  #email,
-  #age {
-    width: 50%;
-    padding: 10px;
-    border: 1px $color-w-2 solid;
-    height: 30px;
-    &:focus {
-      outline: none;
-      border-color: $color-v-2;
-    }
-  }
-  #username,
-  #password,
-  #useremail {
-    width: 15%;
-    padding: 10px;
-    border: 1px $color-w-2 solid;
-    height: 30px;
-    min-width: 200px;
   }
 }
 
