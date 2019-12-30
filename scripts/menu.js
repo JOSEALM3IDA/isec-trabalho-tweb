@@ -21,8 +21,9 @@ function defineEvents() {
   }
 } */
 var x = window.matchMedia("(max-width: 768px)");
-var yikes = true;
+var active = true;
 var navbar = document.getElementsByClassName("nav-column");
+var containernav = document.getElementById("nav");
 
 function HiddenInTheBanks() {
   if (x.matches) {
@@ -34,12 +35,12 @@ function HiddenInTheBanks() {
 
 function dropMenu() {
   this.style.webkitTransitionDuration = "1s";
-  if (yikes == true) {
+  if (active == true) {
     this.style.webkitTransform = "rotate(180deg)";
-    yikes = false;
+    active = false;
   } else {
     this.style.webkitTransform = "rotate(0deg)";
-    yikes = true;
+    active = true;
   }
 
   for (i = 0; i < navbar.length; i++) {

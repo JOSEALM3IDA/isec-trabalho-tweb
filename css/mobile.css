@@ -12,7 +12,7 @@
 }
 
 #navbar .nav-column {
-  display: none;
+  height: 0;
 }
 
 #navbar #mobile_arrow {
