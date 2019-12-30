@@ -133,7 +133,7 @@ $navpadding: 2px;
   grid-template-columns: repeat(3, 1fr);
 
   * {
-    background: rgba(0, 0, 0, 0.1);
+    background: $color-w-1;
     border: 1px white solid;
     height: 30vw;
   }
