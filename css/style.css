@@ -176,7 +176,7 @@ p {
 .gridcontainer * {
   background: #f2f2f2;
   border: 1px white solid;
-  height: 18vw;
+  height: 17vw;
 }
 
 .text-primary {
@@ -439,6 +439,11 @@ p {
 /* Quem Somos */
 #principles {
   color: white;
+}
+
+#about-info iframe {
+  width: 800px;
+  height: 450px;
 }
 
 #about-info .info-right {

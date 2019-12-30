@@ -86,19 +86,22 @@
   text-align: center;
 }
 
-#about-info .info-right,
-#about-info .info-left {
+#about-info .info-* {
   float: none;
   width: 100%;
 }
 
-#about-info .info-right img,
-#about-info .info-left img {
+#about-info .info-* img {
   width: 70%;
 }
 
 #about-info .info-left {
   margin-top: 30px;
+}
+
+#about-info iframe {
+  width: 560px;
+  height: 315px;
 }
 
 #principles {

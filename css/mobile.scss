@@ -87,8 +87,7 @@ $navpadding: 2px;
 /* About Info*/
 #about-info {
   text-align: center;
-  .info-right,
-  .info-left {
+  .info-* {
     float: none;
     width: 100%;
     img {
@@ -97,6 +96,10 @@ $navpadding: 2px;
   }
   .info-left {
     margin-top: 30px;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
   }
 }
 
