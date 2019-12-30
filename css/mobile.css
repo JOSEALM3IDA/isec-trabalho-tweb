@@ -120,6 +120,20 @@
           flex-direction: column;
 }
 
+.gridcontainer {
+  margin: 5% 5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.gridcontainer * {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px white solid;
+  height: 30vw;
+}
+
 #failed {
   width: 100%;
 }

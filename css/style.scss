@@ -124,25 +124,15 @@ p {
   }
 }
 
-.grid-container {
-  margin: 3% 3%;
+.gridcontainer {
+  margin: 5% 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  grid-auto-rows: 1fr;
-  &::before {
-    content: "";
-    width: 0;
-    padding-bottom: 100%;
-    grid-row: 1 / 1;
-    grid-column: 1 / 1;
-  }
-  &:first-child {
-    grid-row: 1 / 1;
-    grid-column: 1 / 1;
-  }
+  grid-template-columns: repeat(5, 1fr);
+
   * {
     background: rgba(0, 0, 0, 0.1);
     border: 1px white solid;
+    height: 18vw;
   }
 }
 
