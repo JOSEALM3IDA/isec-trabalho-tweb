@@ -20,8 +20,8 @@ function defineEvents() {
     }
   }
 } */
-var x = window.matchMedia("(max-width: 768px)")
-
+var x = window.matchMedia("(max-width: 768px)");
+var yikes = true;
 var navbar = document.getElementsByClassName("nav-column");
 
 function HiddenInTheBanks() {
@@ -33,10 +33,14 @@ function HiddenInTheBanks() {
 }
 
 function dropMenu() {
-  this.style.webkitTransform = 'rotate(0deg)';
-
-  this.style.WebkitTransitionDuration = '1s';
-  this.style.webkitTransform = 'rotate(180deg)';
+  this.style.webkitTransitionDuration = "1s";
+  if (yikes == true) {
+    this.style.webkitTransform = "rotate(180deg)";
+    yikes = false;
+  } else {
+    this.style.webkitTransform = "rotate(0deg)";
+    yikes = true;
+  }
 
   for (i = 0; i < navbar.length; i++) {
     if (navbar[i].style.display == "none") {
