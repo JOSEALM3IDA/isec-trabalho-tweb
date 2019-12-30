@@ -1,13 +1,14 @@
-/* Cores */
+/* colors */
+/* Sizes */
 /* Utility class changes */
 .l20px {
   left: 0px;
 }
 
 /* Navbar */
-#navbar .logo {
-  float: none;
+#navbar #logo {
   text-align: center;
+  border-bottom: 0;
 }
 
 #navbar .nav-column {
@@ -25,7 +26,11 @@
 
 #navbar a {
   padding: 5px;
-  border-bottom: #494949 dotted 1px;
+  border-bottom: 1px dotted #494949;
+}
+
+#navbar a:hover, #navbar a.current {
+  border-bottom: 1px dotted #494949;
 }
 
 /* Showcases*/
@@ -118,6 +123,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.flexcontainer#nav :nth-child(2) {
+  border-bottom: 0;
 }
 
 .gridcontainer {

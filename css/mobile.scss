@@ -1,5 +1,21 @@
-/* Cores */
+/* colors */
+$color-bg: #134400;
+$color-v-0: #e8ffe7;
+$color-v-1: #5d8939;
+$color-v-2: #00a05b;
+$color-v-3: #bfffd2;
+$color-v-4: #007c46;
 $color-g-1: #494949;
+$color-g-2: #2c2c2c;
+$color-g-3: #a3a3a3;
+$color-g-4: #4d4d4d;
+$color-w-1: #f2f2f2;
+$color-w-2: #c7c7c7;
+$color-r-1: #ff8181;
+$color-r-2: #df0000;
+
+/* Sizes */
+$navpadding: 2px;
 
 /* Utility class changes */
 .l20px {
@@ -8,9 +24,9 @@ $color-g-1: #494949;
 
 /* Navbar */
 #navbar {
-  .logo {
-    float: none;
+  #logo {
     text-align: center;
+    border-bottom: 0;
   }
   .nav-column {
     display: none;
@@ -25,7 +41,11 @@ $color-g-1: #494949;
   }
   a {
     padding: 5px;
-    border-bottom: $color-g-1 dotted 1px;
+    border-bottom: 1px dotted $color-g-1;
+    &:hover,
+    &.current {
+      border-bottom: 1px dotted $color-g-1;
+    }
   }
 }
 
@@ -100,6 +120,11 @@ $color-g-1: #494949;
 
 .flexcontainer {
   flex-direction: column;
+  &#nav {
+    :nth-child(2) {
+      border-bottom: 0;
+    }
+  }
 }
 
 .gridcontainer {

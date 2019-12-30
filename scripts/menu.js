@@ -6,7 +6,6 @@ function defineEvents() {
 
 function dropMenu() {
   let navbar = document.getElementsByClassName("nav-column");
-  let logo = document.getElementById("logo");
 
   if (this.style.transform == "scaleY(-1)") {
     this.style.transform = "scaleY(1)";
