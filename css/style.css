@@ -450,13 +450,12 @@ p {
   float: right;
 }
 
-#about-info .info-right img {
+#about-info .info-right iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 90%;
   margin: auto;
-  border-radius: 100%;
   border: 5px solid #007c46;
 }
 
