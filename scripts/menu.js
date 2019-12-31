@@ -36,7 +36,7 @@ function HiddenInTheBanks() {
 var active = 0;
 var elements = document.querySelectorAll(".nav-column");
 function dropMenu() {
-  this.style.webkitTransitionDuration = "1s";
+  this.style.webkitTransitionDuration = "0.5s";
 
   if (active == 0) {
     for (i = 0; i < elements.length; i++) {

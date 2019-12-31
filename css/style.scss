@@ -269,12 +269,39 @@ p {
 /* Showcase*/
 #showcase {
   height: 94vh;
-  background: url("img/slide-0.jpg") no-repeat center center/cover;
+  #slideshowdiv {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    * {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide {
+      &0 {
+        background-image: url("/img/slide-0.jpg");
+      }
+      &1 {
+        background-image: url("/img/slide-1.jpg");
+      }
+      &2 {
+        background-image: url("/img/slide-2.jpg");
+      }
+      &3 {
+        background-image: url("/img/slide-3.jpg");
+      }
+    }
+  }
   .showcase-content {
     color: $color-w-1;
     text-align: center;
     text-shadow: 0 0 1px rgb(0, 0, 0);
     padding-top: 20vh;
+
     .showcase-image {
       width: 100%;
       height: auto;
@@ -522,4 +549,32 @@ p {
 }
 #cliente_div {
   padding-bottom: 47.7vh;
+}
+
+/* Animações */
+
+@keyframes fade-in-slideshow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out-slideshow {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in-slide {
+  animation: fade-in-slideshow 1s;
+}
+
+.fade-out-slide {
+  animation: fade-out-slideshow 1s;
 }
