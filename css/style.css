@@ -693,12 +693,12 @@ p {
 }
 
 .fade-in-slide {
-  -webkit-animation: fade-in-slideshow 1s;
-          animation: fade-in-slideshow 1s;
+  -webkit-animation: fade-in-slideshow 0.15s;
+          animation: fade-in-slideshow 0.15s;
 }
 
 .fade-out-slide {
-  -webkit-animation: fade-out-slideshow 1s;
-          animation: fade-out-slideshow 1s;
+  -webkit-animation: fade-out-slideshow 0.15s;
+          animation: fade-out-slideshow 0.15s;
 }
 /*# sourceMappingURL=style.css.map */
