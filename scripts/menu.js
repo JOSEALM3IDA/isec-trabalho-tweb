@@ -34,10 +34,8 @@ function HiddenInTheBanks() {
 }
 */
 var active = 0;
+var elements = document.querySelectorAll(".nav-column");
 function dropMenu() {
-  var elements;
-  elements = document.querySelectorAll(".nav-column");
-
   this.style.webkitTransitionDuration = "1s";
 
   if (active == 0) {
@@ -54,10 +52,8 @@ function dropMenu() {
       this.style.webkitTransform = "rotate(0deg)";
       element.classList.remove("fade-in-element");
       element.classList.add("nav-column");
-      console.log("ESTE FOR LOOP NAO ESTÁ A DAR"); //AAAAAAAAAAAAAAAAAAAAA
     }
     active = 0;
-    console.log("MAS ESTÁ A IMPRIMIR ISTO LMAO"); //AAAAAAAAAAAAAAAAAAAAA
   }
 }
 
