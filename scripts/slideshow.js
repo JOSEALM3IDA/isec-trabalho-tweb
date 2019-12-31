@@ -30,7 +30,13 @@ function slideshow() {
 
   if (++i == slide_imgs) i = 0;
   console.log(i);
-  slides[i - 1].classList.remove("fade-out-slide");
+
+  if (i == 0) {
+    slides[3].classList.remove("fade-out-slide");
+  } else {
+    slides[i - 1].classList.remove("fade-out-slide");
+  }
+
   slides[i].classList.add("fade-in-slide");
   slides[i].classList.remove("invisible");
 }
