@@ -25,7 +25,8 @@ var slide_imgs = 4; // Numero de fotos a apresentar no slideshow
 
 function slideshow() {
   slides[i].classList.add("fade-out-slide");
-  slides[i].classList.add("invisible");
+
+  /* slides[i].classList.add("invisible");
   console.log(i);
 
   if (++i == slide_imgs) i = 0;
@@ -38,11 +39,34 @@ function slideshow() {
   }
 
   slides[i].classList.add("fade-in-slide");
-  slides[i].classList.remove("invisible");
+  slides[i].classList.remove("invisible"); */
 }
 
 function init() {
   slides[0].classList.remove("invisible");
+
+  for (j = 0; j < 4; j++) {
+    slides[j].addEventListener("animationend", function() {
+      if (slides[i].classList.contains("fade-out-slide")) {
+        slides[i].classList.add("invisible");
+        console.log("brah squared");
+
+        console.log(i);
+
+        if (++i == slide_imgs) i = 0;
+        console.log(i);
+
+        if (i == 0) {
+          slides[3].classList.remove("fade-out-slide");
+        } else {
+          slides[i - 1].classList.remove("fade-out-slide");
+        }
+
+        slides[i].classList.add("fade-in-slide");
+        slides[i].classList.remove("invisible");
+      }
+    });
+  }
 }
 
 init();
