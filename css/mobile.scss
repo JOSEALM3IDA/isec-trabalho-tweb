@@ -106,7 +106,7 @@ $navpadding: 2px;
 
 #principles {
   text-align: center;
-  .text-primary::after {
+  .bold::after {
     content: "\A";
     white-space: pre;
   }

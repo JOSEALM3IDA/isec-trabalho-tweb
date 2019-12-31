@@ -109,7 +109,7 @@
   text-align: center;
 }
 
-#principles .text-primary::after {
+#principles .bold::after {
   content: "\A";
   white-space: pre;
 }
