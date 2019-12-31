@@ -20,48 +20,47 @@ function defineEvents() {
     }
   }
 } */
+
+/*
 var x = window.matchMedia("(max-width: 768px)");
-var active = true;
-var navbar = document.getElementsByClassName("nav-column");
-var containernav = document.getElementById("nav");
+
 
 function HiddenInTheBanks() {
   if (x.matches) {
     for (i = 0; i < navbar.length; i++) {
-      navbar[i].style.display = "none";
+      navbar[i].style.opacity = "0";
     }
   }
 }
-
+*/
+var active = true;
 function dropMenu() {
-  this.style.webkitTransitionDuration = "1s";
-  if (active == true) {
-    this.style.webkitTransform = "rotate(180deg)";
-    active = false;
-  } else {
-    this.style.webkitTransform = "rotate(0deg)";
-    active = true;
-  }
+  var elements;
+  var windowHeight;
 
-  for (i = 0; i < navbar.length; i++) {
-    if (navbar[i].style.display == "none") {
-      setTimeout(dummie1, 1000, navbar, i);
+  elements = document.querySelectorAll(".nav-column");
+  windowHeight = window.innerHeight;
+
+  this.style.webkitTransitionDuration = "1s";
+
+  for (i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    if (element.className == "nav-column") {
+      this.style.webkitTransform = "rotate(180deg)";
+      element.classList.add("fade-in-element");
+      element.classList.remove("nav-column");
     } else {
-      setTimeout(dummie2, 1000, navbar, i);
+      this.style.webkitTransform = "rotate(0deg)";
+      element.classList.remove("fade-in-element");
+      element.classList.add("nav-column");
     }
   }
 }
 
 defineEvents();
-HiddenInTheBanks();
+
+//HiddenInTheBanks();
 
 /* setTimeout(function {
   navbar[i].style.display = "inline";
 }, 100); */
-
-function dummie1(navbar, i) {
-  navbar[i].style.display = "inline";
-}
-function dummie2(navbar, i) {
-  navbar[i].style.display = "none";
-}

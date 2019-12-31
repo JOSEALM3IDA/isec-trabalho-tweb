@@ -12,6 +12,7 @@
 }
 
 #navbar .nav-column {
+  opacity: 0;
   display: none;
 }
 
@@ -169,5 +170,32 @@
 #signup-form .form-group #useremail,
 #signup-form .form-group #password {
   min-width: 100%;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1, 0.1);
+            transform: scale(0.1, 0.1);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1, 0.1);
+            transform: scale(0.1, 0.1);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-element {
+  -webkit-animation: fade-in 0.5s;
+          animation: fade-in 0.5s;
 }
 /*# sourceMappingURL=mobile.css.map */
