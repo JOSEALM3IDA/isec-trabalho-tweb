@@ -37,13 +37,12 @@ var active = 0;
 function dropMenu() {
   var elements;
   elements = document.querySelectorAll(".nav-column");
-  windowHeight = window.innerHeight;
 
   this.style.webkitTransitionDuration = "1s";
 
   if (active == 0) {
     for (i = 0; i < elements.length; i++) {
-      var element = elements[i];
+      let element = elements[i];
       this.style.webkitTransform = "rotate(180deg)";
       element.classList.add("fade-in-element");
       element.classList.remove("nav-column");
@@ -51,7 +50,7 @@ function dropMenu() {
     active = 1;
   } else {
     for (i = 0; i < elements.length; i++) {
-      var element = elements[i];
+      let element = elements[i];
       this.style.webkitTransform = "rotate(0deg)";
       element.classList.remove("fade-in-element");
       element.classList.add("nav-column");
