@@ -330,19 +330,19 @@ p {
 }
 
 #showcase #slideshowdiv #slide0 {
-  background-image: url("/img/slide-0.jpg");
+  background-image: url("../img/slide-0.jpg");
 }
 
 #showcase #slideshowdiv #slide1 {
-  background-image: url("/img/slide-1.jpg");
+  background-image: url("../img/slide-1.jpg");
 }
 
 #showcase #slideshowdiv #slide2 {
-  background-image: url("/img/slide-2.jpg");
+  background-image: url("../img/slide-2.jpg");
 }
 
 #showcase #slideshowdiv #slide3 {
-  background-image: url("/img/slide-3.jpg");
+  background-image: url("../img/slide-3.jpg");
 }
 
 #showcase .showcase-content {

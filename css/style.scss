@@ -283,16 +283,16 @@ p {
     }
     #slide {
       &0 {
-        background-image: url("/img/slide-0.jpg");
+        background-image: url("../img/slide-0.jpg");
       }
       &1 {
-        background-image: url("/img/slide-1.jpg");
+        background-image: url("../img/slide-1.jpg");
       }
       &2 {
-        background-image: url("/img/slide-2.jpg");
+        background-image: url("../img/slide-2.jpg");
       }
       &3 {
-        background-image: url("/img/slide-3.jpg");
+        background-image: url("../img/slide-3.jpg");
       }
     }
   }
