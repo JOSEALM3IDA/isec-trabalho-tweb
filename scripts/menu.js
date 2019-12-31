@@ -45,7 +45,7 @@ function dropMenu() {
 
   for (i = 0; i < navbar.length; i++) {
     if (navbar[i].style.display == "none") {
-      navbar[i].style.display = "inline";
+      setTimeout(dummie(i), 1000);
     } else {
       navbar[i].style.display = "none";
     }
@@ -54,3 +54,11 @@ function dropMenu() {
 
 defineEvents();
 HiddenInTheBanks();
+
+/* setTimeout(function {
+  navbar[i].style.display = "inline";
+}, 100); */
+
+function dummie(a) {
+  navbar[a].style.display = "inline";
+}
