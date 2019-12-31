@@ -45,9 +45,9 @@ function dropMenu() {
 
   for (i = 0; i < navbar.length; i++) {
     if (navbar[i].style.display == "none") {
-      setTimeout(dummie(i), 1000);
+      setTimeout(dummie1, 1000, navbar, i);
     } else {
-      navbar[i].style.display = "none";
+      setTimeout(dummie2, 1000, navbar, i);
     }
   }
 }
@@ -59,6 +59,9 @@ HiddenInTheBanks();
   navbar[i].style.display = "inline";
 }, 100); */
 
-function dummie(a) {
-  navbar[a].style.display = "inline";
+function dummie1(navbar, i) {
+  navbar[i].style.display = "inline";
+}
+function dummie2(navbar, i) {
+  navbar[i].style.display = "none";
 }
