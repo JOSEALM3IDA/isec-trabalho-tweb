@@ -57,10 +57,14 @@ p {
   left: 20px;
 }
 
+#navbar .container {
+  padding: 0 0.3vw;
+}
+
 .container {
+  overflow: hidden;
   margin: auto;
   max-width: 100%;
-  overflow: auto;
   padding: 0 20px;
 }
 
@@ -146,6 +150,7 @@ p {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
+  min-width: 150px;
 }
 
 .gridcontainer {
@@ -268,6 +273,8 @@ p {
 #navbar {
   background: #2c2c2c;
   color: #f2f2f2;
+  font-size: calc(10px + 0.3vw);
+  overflow: hidden;
 }
 
 #navbar #mobile_arrow {
@@ -277,10 +284,32 @@ p {
 #navbar #logo {
   font-weight: bold;
   color: #00a05b;
-  font-size: 21px;
+  font-size: calc(10px + 0.7vw);
+}
+
+#navbar #nav-sub {
+  display: none;
+  border-bottom: 0;
+  padding-right: 0.7vw;
+  padding-top: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 59px;
+  text-align: center;
+  width: 150px;
+}
+
+#navbar #nav-sub a {
+  background-color: #2c2c2c;
+}
+
+#navbar #nav-sub a:hover {
+  border-bottom: 2px solid #00a05b;
 }
 
 #navbar a {
+  white-space: nowrap;
   border-bottom: 2px solid #c7c7c7;
   display: -webkit-box;
   display: -ms-flexbox;

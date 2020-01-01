@@ -24,14 +24,31 @@ $navpadding: 2px;
 
 /* Navbar */
 #navbar {
+  font-size: 16px;
   #logo {
     text-align: center;
     border-bottom: 0;
+    font-size: 21px;
   }
   .nav-column {
     opacity: 0;
     display: none;
   }
+  /*
+  #nav-sub {
+    position: relative;
+    top: 0;
+    width: 100%;
+    a {
+      padding: 5px;
+      border-bottom: 1px dotted $color-g-1;
+      &:hover,
+      &.current {
+        border-bottom: 1px dotted $color-g-1;
+      }
+    }
+  }
+  */
   #mobile_arrow {
     display: block;
     margin: auto;

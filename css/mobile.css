@@ -7,9 +7,29 @@
 }
 
 /* Navbar */
+#navbar {
+  font-size: 16px;
+  /*
+  #nav-sub {
+    position: relative;
+    top: 0;
+    width: 100%;
+    a {
+      padding: 5px;
+      border-bottom: 1px dotted $color-g-1;
+      &:hover,
+      &.current {
+        border-bottom: 1px dotted $color-g-1;
+      }
+    }
+  }
+  */
+}
+
 #navbar #logo {
   text-align: center;
   border-bottom: 0;
+  font-size: 21px;
 }
 
 #navbar .nav-column {

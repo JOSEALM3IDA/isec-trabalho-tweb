@@ -66,10 +66,15 @@ p {
   left: 20px;
 }
 
+#navbar {
+  .container {
+    padding: 0 0.3vw;
+  }
+}
 .container {
+  overflow: hidden;
   margin: auto;
   max-width: 100%;
-  overflow: auto;
   padding: 0 20px;
   &#sign {
     padding: 0;
@@ -118,6 +123,7 @@ p {
     }
     :nth-child(9) {
       flex-grow: 2;
+      min-width: 150px;
     }
   }
 }
@@ -235,16 +241,37 @@ p {
 #navbar {
   background: $color-g-2;
   color: $color-w-1;
+  font-size: calc(10px + 0.3vw);
+  overflow: hidden;
   #mobile_arrow {
     display: none;
   }
   #logo {
     font-weight: bold;
     color: $color-v-2;
-    font-size: 21px;
+    font-size: calc(10px + 0.7vw);
+  }
+  #nav-sub {
+    display: none;
+    border-bottom: 0;
+    padding-right: 0.7vw;
+    padding-top: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 59px;
+    text-align: center;
+    width: 150px;
+    a {
+      background-color: $color-g-2;
+      &:hover {
+        border-bottom: $navpadding solid $color-v-2;
+      }
+    }
   }
 
   a {
+    white-space: nowrap;
     border-bottom: $navpadding solid $color-w-2;
     display: flex;
     flex-direction: column;

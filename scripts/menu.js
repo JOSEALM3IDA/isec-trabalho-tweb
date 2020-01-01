@@ -1,7 +1,15 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile_arrow");
+  let cliente = document.getElementById("area-cliente");
+  let submenu = document.getElementById("nav-sub");
 
   arrow.addEventListener("click", dropMenu);
+  cliente.addEventListener("mouseover", function() {
+    submenu.style.display = "block";
+  });
+  cliente.addEventListener("mouseout", function() {
+    submenu.style.display = "none";
+  });
 }
 
 /* function dropMenu() {
