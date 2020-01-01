@@ -501,6 +501,21 @@ p {
   float: left;
 }
 
+/* O Que Fazemos */
+#que-fazemos-video {
+  width: 100%;
+}
+
+#que-fazemos-video iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  border: 5px solid #007c46;
+}
+
 /* why is this here */
 #testimonials {
   height: 100%;
