@@ -563,6 +563,10 @@ p {
   display: none;
 }
 
+#mais-projetos .mais-projetos ul {
+  padding-left: 1.5em;
+}
+
 #mais-projetos .mais-projetos .close {
   z-index: 0;
   float: right;

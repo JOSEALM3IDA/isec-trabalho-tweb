@@ -461,9 +461,6 @@ p {
 }
 
 /* Eventos */
-.eventos-nav {
-  border-bottom: 1px solid $color-w-2;
-}
 #mais-projetos {
   margin: 5% 5%;
   .mais-projetos {
@@ -481,6 +478,10 @@ p {
         height: 50vh;
         display: none;
       }
+    }
+
+    ul {
+      padding-left: 1.5em;
     }
 
     .close {
