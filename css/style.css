@@ -534,6 +534,10 @@ p {
 }
 
 /* Eventos */
+#eventos-nav {
+  border-bottom: 1px solid #c7c7c7;
+}
+
 #eventos {
   margin: 5% 5%;
   color: #f2f2f2;
