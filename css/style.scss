@@ -499,6 +499,7 @@ p {
       font-size: 1.4vmax;
       line-height: 1.4vmax;
     }
+
     #item {
       &1 {
         height: calc(34.4vw + 10px);
@@ -523,6 +524,13 @@ p {
           width: 100%;
           border: 0;
           margin-top: 20%;
+        }
+      }
+      &4 {
+        img {
+          border: 0;
+          width: 100%;
+          margin-top: 10%;
         }
       }
       &11 {

@@ -612,6 +612,12 @@ p {
   margin-top: 20%;
 }
 
+#eventos .gridcontainer #item4 img {
+  border: 0;
+  width: 100%;
+  margin-top: 10%;
+}
+
 #eventos .gridcontainer #item11 {
   height: calc(34.4vw + 10px);
   -ms-grid-row: 3;

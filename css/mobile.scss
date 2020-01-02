@@ -187,6 +187,7 @@ $navpadding: 2px;
     p {
       margin: 5% 0;
       font-size: 3vw;
+      line-height: 3vw;
     }
     #item {
       &1 {
@@ -202,6 +203,7 @@ $navpadding: 2px;
           margin: 10% auto 0 0;
         }
         p {
+          margin: 10% 0;
           font-size: 10vw;
         }
       }

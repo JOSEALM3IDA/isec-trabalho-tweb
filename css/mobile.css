@@ -203,6 +203,7 @@
 #eventos .gridcontainer p {
   margin: 5% 0;
   font-size: 3vw;
+  line-height: 3vw;
 }
 
 #eventos .gridcontainer #item1 {
@@ -223,6 +224,7 @@
 }
 
 #eventos .gridcontainer #item1 p {
+  margin: 10% 0;
   font-size: 10vw;
 }
 
