@@ -2,8 +2,13 @@ function defineEvents() {
   let info = document.getElementById("mais-projetos");
   let projetos = document.getElementsByClassName("mais-projetos");
   let close = document.getElementsByClassName("close");
+  let cerasMap = document.getElementById("maps-ceras");
+  let ceras = document.getElementById("ceras");
   var nCells = 14; // Numero de cells no grid
 
+  ceras.addEventListener("click", function() {
+    cerasMap.style.display = "block";
+  });
   item0.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
