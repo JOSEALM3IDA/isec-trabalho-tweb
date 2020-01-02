@@ -127,6 +127,20 @@ $navpadding: 2px;
   }
 }
 
+/* O Que Fazemos */
+#videos_whatwedo {
+  #vid1 {
+    padding-bottom: 2%;
+  }
+  .videos {
+    iframe {
+      display: block;
+      height: 100vh;
+    }
+  }
+}
+
+/* */
 .l-heading {
   text-align: center;
 }

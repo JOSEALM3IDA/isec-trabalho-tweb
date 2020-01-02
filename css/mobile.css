@@ -135,6 +135,17 @@
   white-space: pre;
 }
 
+/* O Que Fazemos */
+#videos_whatwedo #vid1 {
+  padding-bottom: 2%;
+}
+
+#videos_whatwedo .videos iframe {
+  display: block;
+  height: 100vh;
+}
+
+/* */
 .l-heading {
   text-align: center;
 }
