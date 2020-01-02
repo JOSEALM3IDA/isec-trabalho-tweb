@@ -15,6 +15,7 @@ function defineEvents() {
       item0.scrollIntoView();
     });
   });
+
   item1.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -26,6 +27,7 @@ function defineEvents() {
       item1.scrollIntoView();
     });
   });
+
   item2.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -37,6 +39,7 @@ function defineEvents() {
       item2.scrollIntoView();
     });
   });
+
   item3.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -48,6 +51,7 @@ function defineEvents() {
       item3.scrollIntoView();
     });
   });
+
   item4.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -59,6 +63,7 @@ function defineEvents() {
       item4.scrollIntoView();
     });
   });
+
   item5.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -70,6 +75,7 @@ function defineEvents() {
       item5.scrollIntoView();
     });
   });
+
   item6.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -81,6 +87,7 @@ function defineEvents() {
       item6.scrollIntoView();
     });
   });
+
   item7.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -92,6 +99,7 @@ function defineEvents() {
       item7.scrollIntoView();
     });
   });
+
   item8.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -103,6 +111,7 @@ function defineEvents() {
       item8.scrollIntoView();
     });
   });
+
   item9.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -114,6 +123,7 @@ function defineEvents() {
       item9.scrollIntoView();
     });
   });
+
   item10.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -125,6 +135,7 @@ function defineEvents() {
       item10.scrollIntoView();
     });
   });
+
   item11.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -136,6 +147,7 @@ function defineEvents() {
       item11.scrollIntoView();
     });
   });
+
   item12.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -147,6 +159,7 @@ function defineEvents() {
       item12.scrollIntoView();
     });
   });
+
   item13.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -158,8 +171,6 @@ function defineEvents() {
       item13.scrollIntoView();
     });
   });
-
-  console.log(projetos);
 }
 
 defineEvents();

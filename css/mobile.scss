@@ -161,6 +161,9 @@ $navpadding: 2px;
 }
 
 /* Eventos */
+#eventos-nav {
+  border-bottom: 1px solid $color-w-2;
+}
 #eventos {
   font-size: 20px;
   #txt-eventos {
