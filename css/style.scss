@@ -489,13 +489,13 @@ p {
       text-align: center;
     }
     img {
-      width: 80%;
+      width: 100%;
       border-radius: 3%;
-      border: 0.3vw solid $color-g-2;
+      border: 0.2vw solid $color-g-2;
       margin-top: 5%;
     }
     p {
-      margin-top: 5%;
+      margin-top: 1%;
       font-size: 1.4vmax;
       line-height: 1.4vmax;
     }
@@ -531,6 +531,29 @@ p {
           border: 0;
           width: 100%;
           margin-top: 10%;
+        }
+      }
+      &7 {
+        img {
+          border: 0;
+          padding: 5px;
+          margin-top: 15%;
+        }
+      }
+      &8 {
+        img {
+          margin: 0;
+          border: 0;
+        }
+      }
+      &9 {
+        img {
+          border: 0;
+          width: 70%;
+          margin: 0;
+        }
+        p {
+          margin: 0;
         }
       }
       &11 {

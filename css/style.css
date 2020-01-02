@@ -568,14 +568,14 @@ p {
 }
 
 #eventos .gridcontainer img {
-  width: 80%;
+  width: 100%;
   border-radius: 3%;
-  border: 0.3vw solid #2c2c2c;
+  border: 0.2vw solid #2c2c2c;
   margin-top: 5%;
 }
 
 #eventos .gridcontainer p {
-  margin-top: 5%;
+  margin-top: 1%;
   font-size: 1.4vmax;
   line-height: 1.4vmax;
 }
@@ -616,6 +616,27 @@ p {
   border: 0;
   width: 100%;
   margin-top: 10%;
+}
+
+#eventos .gridcontainer #item7 img {
+  border: 0;
+  padding: 5px;
+  margin-top: 15%;
+}
+
+#eventos .gridcontainer #item8 img {
+  margin: 0;
+  border: 0;
+}
+
+#eventos .gridcontainer #item9 img {
+  border: 0;
+  width: 70%;
+  margin: 0;
+}
+
+#eventos .gridcontainer #item9 p {
+  margin: 0;
 }
 
 #eventos .gridcontainer #item11 {
