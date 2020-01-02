@@ -9,6 +9,7 @@ function defineEvents() {
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
   });
+  /*
   item0.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -176,7 +177,7 @@ function defineEvents() {
       item13.scrollIntoView();
     });
   });
-
+*/
   for (i = 0; i < nCells; i++) {
     document.getElementById("item" + i).addEventListener("click", function() {
       info.scrollIntoView();
