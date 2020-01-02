@@ -305,6 +305,8 @@ p {
 }
 
 #navbar #nav-sub a:hover {
+  background: #494949;
+  color: #00a05b;
   border-bottom: 2px solid #00a05b;
 }
 

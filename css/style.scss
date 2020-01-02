@@ -265,6 +265,8 @@ p {
     a {
       background-color: $color-g-2;
       &:hover {
+        background: $color-g-1;
+        color: $color-v-2;
         border-bottom: $navpadding solid $color-v-2;
       }
     }
