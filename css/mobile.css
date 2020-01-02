@@ -14,7 +14,7 @@
 #navbar #logo {
   text-align: center;
   border-bottom: 0;
-  font-size: 21px;
+  font-size: 26px;
 }
 
 #navbar .nav-column {
@@ -166,8 +166,7 @@
 }
 
 /* Eventos */
-.gridcontainer {
-  margin: 5% 5%;
+#eventos .gridcontainer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -176,12 +175,12 @@
       grid-template-rows: repeat(2, 1fr);
 }
 
-.gridcontainer * {
+#eventos .gridcontainer * {
   background: #f2f2f2;
   min-height: 40vw;
 }
 
-.gridcontainer #item1 {
+#eventos .gridcontainer #item1 {
   min-height: 80vw;
   -ms-grid-row: 1;
       grid-row-start: 1;
@@ -191,7 +190,7 @@
   grid-column-end: 3;
 }
 
-.gridcontainer #item11 {
+#eventos .gridcontainer #item11 {
   min-height: 80vw;
   -ms-grid-row: 6;
       grid-row-start: 6;
