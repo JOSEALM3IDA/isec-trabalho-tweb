@@ -575,7 +575,7 @@ p {
 }
 
 #eventos .gridcontainer p {
-  margin-top: 1%;
+  margin-top: 5%;
   font-size: 1.4vmax;
   line-height: 1.4vmax;
 }
@@ -598,8 +598,8 @@ p {
 }
 
 #eventos .gridcontainer #item1 p {
-  margin: 15% 0;
   font-size: calc(25px + 1vw);
+  line-height: calc(25px + 1vw);
 }
 
 #eventos .gridcontainer #item3 {

@@ -495,7 +495,7 @@ p {
       margin-top: 5%;
     }
     p {
-      margin-top: 1%;
+      margin-top: 5%;
       font-size: 1.4vmax;
       line-height: 1.4vmax;
     }
@@ -514,8 +514,8 @@ p {
           margin: 10% auto 0 0;
         }
         p {
-          margin: 15% 0;
           font-size: calc(25px + 1vw);
+          line-height: calc(25px + 1vw);
         }
       }
       &3 {
