@@ -162,8 +162,13 @@ $navpadding: 2px;
 
 /* Eventos */
 #eventos {
+  font-size: 20px;
   #txt-eventos {
     padding: 0.5em 0;
+    .bold {
+      color: $color-v-2;
+      font-size: 25px;
+    }
   }
   .gridcontainer {
     display: grid;

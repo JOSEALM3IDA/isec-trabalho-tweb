@@ -537,17 +537,14 @@ p {
 #eventos {
   margin: 5% 5%;
   color: #f2f2f2;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-}
-
-#eventos #txt-eventos {
-  padding-bottom: 2em;
+  line-height: 50px;
 }
 
 #eventos #txt-eventos .bold {
   color: #00a05b;
-  font-size: 25px;
+  font-size: 45px;
 }
 
 #eventos .gridcontainer {
@@ -563,7 +560,7 @@ p {
 
 #eventos .gridcontainer div {
   font-size: calc(15px - 1vw);
-  background: #f2f2f2;
+  background: white;
   height: 17.2vw;
   padding: 10px 10px;
   color: #2c2c2c;
@@ -603,6 +600,16 @@ p {
 #eventos .gridcontainer #item1 p {
   margin: 15% 0;
   font-size: calc(25px + 1vw);
+}
+
+#eventos .gridcontainer #item3 {
+  background-color: white;
+}
+
+#eventos .gridcontainer #item3 img {
+  width: 100%;
+  border: 0;
+  margin-top: 20%;
 }
 
 #eventos .gridcontainer #item11 {
