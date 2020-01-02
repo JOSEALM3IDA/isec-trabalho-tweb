@@ -580,7 +580,7 @@ p {
   line-height: calc(8px + 1vmax);
 }
 
-#eventos .gridcontainer #item1 {
+#eventos .gridcontainer #item0 {
   height: calc(34.4vw + 10px);
   -ms-grid-row: 1;
       grid-row-start: 1;
@@ -590,65 +590,65 @@ p {
   grid-column-end: 3;
 }
 
-#eventos .gridcontainer #item1 img {
+#eventos .gridcontainer #item0 img {
   width: 90%;
   border-radius: 3%;
   border: 6px solid #2c2c2c;
   margin: 10% auto 0 0;
 }
 
-#eventos .gridcontainer #item1 p {
+#eventos .gridcontainer #item0 p {
   font-size: calc(18px + 1vmax);
   line-height: calc(18px + 1vmax);
 }
 
-#eventos .gridcontainer #item2 p {
+#eventos .gridcontainer #item1 p {
   margin-top: 5%;
 }
 
-#eventos .gridcontainer #item3 {
+#eventos .gridcontainer #item2 {
   background-color: white;
 }
 
-#eventos .gridcontainer #item3 img {
+#eventos .gridcontainer #item2 img {
   width: 100%;
   border: 0;
   margin-top: 20%;
 }
 
-#eventos .gridcontainer #item4 img {
+#eventos .gridcontainer #item3 img {
   border: 0;
   width: 100%;
   margin-top: 10%;
 }
 
-#eventos .gridcontainer #item7 img {
+#eventos .gridcontainer #item6 img {
   border: 0;
   padding: 5px;
   margin-top: 15%;
 }
 
-#eventos .gridcontainer #item8 img {
+#eventos .gridcontainer #item7 img {
   margin: 0;
   border: 0;
 }
 
-#eventos .gridcontainer #item9 img {
+#eventos .gridcontainer #item8 img {
   border: 0;
   width: 70%;
   margin: 0;
 }
 
-#eventos .gridcontainer #item9 p {
+#eventos .gridcontainer #item8 p {
   margin: 0;
 }
 
-#eventos .gridcontainer #item10 img {
+#eventos .gridcontainer #item9 img {
   border: 0;
   margin-top: 12%;
 }
 
-#eventos .gridcontainer #item11 {
+#eventos .gridcontainer #item10 {
   height: calc(34.4vw + 10px);
   -ms-grid-row: 3;
       grid-row-start: 3;
@@ -658,20 +658,20 @@ p {
   grid-column-end: 6;
 }
 
-#eventos .gridcontainer #item11 img {
+#eventos .gridcontainer #item10 img {
   width: 90%;
 }
 
-#eventos .gridcontainer #item11 p {
+#eventos .gridcontainer #item10 p {
   font-size: calc(18px + 1vmax);
   line-height: calc(18px + 1vmax);
 }
 
-#eventos .gridcontainer #item12 p {
+#eventos .gridcontainer #item11 p {
   font-size: calc(18px + 1vmax);
 }
 
-#eventos .gridcontainer #item14 img {
+#eventos .gridcontainer #item13 img {
   border: 0;
   width: 90%;
   margin: 0;
