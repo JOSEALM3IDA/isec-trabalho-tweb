@@ -574,7 +574,7 @@ p {
   width: 80%;
   border-radius: 3%;
   border: 0.3vw solid #2c2c2c;
-  margin: 2% auto 0 0;
+  margin-top: 5%;
 }
 
 #eventos .gridcontainer p {
