@@ -162,6 +162,9 @@ $navpadding: 2px;
 
 /* Eventos */
 #eventos {
+  #txt-eventos {
+    padding: 0.5em 0;
+  }
   .gridcontainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

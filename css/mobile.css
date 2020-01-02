@@ -166,6 +166,10 @@
 }
 
 /* Eventos */
+#eventos #txt-eventos {
+  padding: 0.5em 0;
+}
+
 #eventos .gridcontainer {
   display: -ms-grid;
   display: grid;
