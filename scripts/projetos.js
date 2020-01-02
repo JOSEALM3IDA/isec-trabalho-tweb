@@ -9,7 +9,11 @@ function defineEvents() {
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
   });
+<<<<<<< HEAD
   /*
+=======
+
+>>>>>>> d81c3d51492fcf5269e706388be703be74263310
   item0.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
