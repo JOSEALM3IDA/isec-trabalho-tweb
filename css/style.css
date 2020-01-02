@@ -672,7 +672,16 @@ p {
 }
 
 #eventos .gridcontainer #item11 p {
+  margin-top: 8%;
   font-size: calc(18px + 1vmax);
+}
+
+#eventos .gridcontainer #item12 {
+  margin: 0;
+}
+
+#eventos .gridcontainer #item12 img {
+  width: 90%;
 }
 
 #eventos .gridcontainer #item13 img {
