@@ -576,8 +576,8 @@ p {
 
 #eventos .gridcontainer p {
   margin-top: 5%;
-  font-size: 1.4vmax;
-  line-height: 1.4vmax;
+  font-size: calc(8px + 1vmax);
+  line-height: calc(8px + 1vmax);
 }
 
 #eventos .gridcontainer #item1 {
@@ -598,8 +598,12 @@ p {
 }
 
 #eventos .gridcontainer #item1 p {
-  font-size: calc(25px + 1vw);
-  line-height: calc(25px + 1vw);
+  font-size: calc(18px + 1vmax);
+  line-height: calc(18px + 1vmax);
+}
+
+#eventos .gridcontainer #item2 p {
+  margin-top: 5%;
 }
 
 #eventos .gridcontainer #item3 {
@@ -639,6 +643,11 @@ p {
   margin: 0;
 }
 
+#eventos .gridcontainer #item10 img {
+  border: 0;
+  margin-top: 12%;
+}
+
 #eventos .gridcontainer #item11 {
   height: calc(34.4vw + 10px);
   -ms-grid-row: 3;
@@ -647,6 +656,25 @@ p {
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 6;
+}
+
+#eventos .gridcontainer #item11 img {
+  width: 90%;
+}
+
+#eventos .gridcontainer #item11 p {
+  font-size: calc(18px + 1vmax);
+  line-height: calc(18px + 1vmax);
+}
+
+#eventos .gridcontainer #item12 p {
+  font-size: calc(18px + 1vmax);
+}
+
+#eventos .gridcontainer #item14 img {
+  border: 0;
+  width: 90%;
+  margin: 0;
 }
 
 /* why is this here 
