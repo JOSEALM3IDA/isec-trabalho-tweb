@@ -561,15 +561,30 @@ p {
       grid-template-columns: repeat(5, 1fr);
 }
 
-#eventos .gridcontainer * {
+#eventos .gridcontainer div {
+  font-size: calc(15px - 1vw);
   background: #f2f2f2;
-  min-height: 17.2vw;
+  height: 17.2vw;
   padding: 10px 10px;
   color: #2c2c2c;
   text-align: center;
 }
 
+#eventos .gridcontainer img {
+  width: 80%;
+  border-radius: 3%;
+  border: 0.3vw solid #2c2c2c;
+  margin: 2% auto 0 0;
+}
+
+#eventos .gridcontainer p {
+  margin: auto;
+  font-size: 1.4vmax;
+  line-height: 1.4vmax;
+}
+
 #eventos .gridcontainer #item1 {
+  height: calc(34.4vw + 10px);
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 3;
@@ -578,7 +593,20 @@ p {
   grid-column-end: 3;
 }
 
+#eventos .gridcontainer #item1 img {
+  width: 90%;
+  border-radius: 3%;
+  border: 6px solid #2c2c2c;
+  margin: 10% auto 0 0;
+}
+
+#eventos .gridcontainer #item1 p {
+  margin: 15% 0;
+  font-size: calc(25px + 1vw);
+}
+
 #eventos .gridcontainer #item11 {
+  height: calc(34.4vw + 10px);
   -ms-grid-row: 3;
       grid-row-start: 3;
   grid-row-end: 5;
