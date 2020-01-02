@@ -465,6 +465,12 @@ p {
 #eventos-nav {
   border-bottom: 1px solid $color-w-2;
 }
+#mais-projetos {
+  .mais-projetos {
+    width: 100%;
+    height: 100px;
+  }
+}
 #eventos {
   margin: 5% 5%;
   color: $color-w-1;
@@ -502,7 +508,9 @@ p {
       font-size: calc(8px + 1vmax);
       line-height: calc(8px + 1vmax);
     }
-
+    .pointer {
+      cursor: pointer;
+    }
     #item {
       &0 {
         height: calc(34.4vw + 10px);

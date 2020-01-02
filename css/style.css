@@ -538,6 +538,11 @@ p {
   border-bottom: 1px solid #c7c7c7;
 }
 
+#mais-projetos .mais-projetos {
+  width: 100%;
+  height: 100px;
+}
+
 #eventos {
   margin: 5% 5%;
   color: #f2f2f2;
@@ -582,6 +587,10 @@ p {
   margin-top: 5%;
   font-size: calc(8px + 1vmax);
   line-height: calc(8px + 1vmax);
+}
+
+#eventos .gridcontainer .pointer {
+  cursor: pointer;
 }
 
 #eventos .gridcontainer #item0 {
