@@ -9,6 +9,7 @@ function defineEvents() {
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
   });
+  /*
   item0.addEventListener("click", function() {
     info.scrollIntoView();
     for (i = 0; i < nCells; i++) {
@@ -176,6 +177,31 @@ function defineEvents() {
       item13.scrollIntoView();
     });
   });
+  */
+
+  for (i = 0; i < nCells; i++) {
+    document.getElementById("item" + i).addEventListener("click", function() {
+      info.scrollIntoView();
+
+      global = this.id.slice(4);
+      for (j = 0; j < nCells; j++) {
+        projetos[j].style.display = "none";
+        // console.log("dude squared");
+      }
+      // console.log("global = " + global);
+      projetos[global].style.display = "block";
+      close[global].addEventListener("click", function() {
+        projetos[global].style.display = "none";
+        document.getElementById("item" + global).scrollIntoView();
+        // console.log("dude");
+      });
+
+      // console.log("root of dude");
+    });
+    // console.log("doooood");
+  }
 }
+
+var global;
 
 defineEvents();
