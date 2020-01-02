@@ -468,16 +468,28 @@ p {
 #mais-projetos {
   margin: 5% 5%;
   .mais-projetos {
-    background-color: $color-g-1;
+    background-color: $color-w-1;
+    color: black;
     padding: 20px;
-    border: 2px solid white;
+    border: 2px solid $color-w-1;
     width: 100%;
     height: auto;
     min-height: 90px;
-    img {
+    .close {
       float: right;
       width: 50px;
       height: 50px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .title {
+      padding-bottom: 30px;
+      color: $color-v-2;
+      font-size: 35px;
+      line-height: 35px;
+      text-align: center;
+      border-bottom: 2px dotted $color-g-2;
     }
   }
 }
@@ -506,6 +518,9 @@ p {
       padding: 10px 10px;
       color: $color-g-2;
       text-align: center;
+      &:hover {
+        cursor: pointer;
+      }
     }
     img {
       width: 100%;

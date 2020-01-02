@@ -543,18 +543,32 @@ p {
 }
 
 #mais-projetos .mais-projetos {
-  background-color: #494949;
+  background-color: #f2f2f2;
+  color: black;
   padding: 20px;
-  border: 2px solid white;
+  border: 2px solid #f2f2f2;
   width: 100%;
   height: auto;
   min-height: 90px;
 }
 
-#mais-projetos .mais-projetos img {
+#mais-projetos .mais-projetos .close {
   float: right;
   width: 50px;
   height: 50px;
+}
+
+#mais-projetos .mais-projetos .close:hover {
+  cursor: pointer;
+}
+
+#mais-projetos .mais-projetos .title {
+  padding-bottom: 30px;
+  color: #00a05b;
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 2px dotted #2c2c2c;
 }
 
 #eventos {
@@ -588,6 +602,10 @@ p {
   padding: 10px 10px;
   color: #2c2c2c;
   text-align: center;
+}
+
+#eventos .gridcontainer div:hover {
+  cursor: pointer;
 }
 
 #eventos .gridcontainer img {
