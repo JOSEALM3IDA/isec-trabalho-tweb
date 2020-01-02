@@ -466,9 +466,19 @@ p {
   border-bottom: 1px solid $color-w-2;
 }
 #mais-projetos {
+  margin: 5% 5%;
   .mais-projetos {
+    background-color: $color-g-1;
+    padding: 20px;
+    border: 2px solid white;
     width: 100%;
-    height: 100px;
+    height: auto;
+    min-height: 90px;
+    img {
+      float: right;
+      width: 50px;
+      height: 50px;
+    }
   }
 }
 #eventos {
