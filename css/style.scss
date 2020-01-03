@@ -499,7 +499,7 @@ p {
     }
   }
 
-  div[id*=maps] {
+  div[id*="maps"] {
     display: none;
   }
 
@@ -660,9 +660,9 @@ p {
 #social {
   margin: 5%;
   color: $color-w-1;
-    font-size: 25px;
-    text-align: center;
-    line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
   .bold {
     color: $color-v-2;
     font-size: 45px;

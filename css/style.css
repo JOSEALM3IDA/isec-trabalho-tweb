@@ -576,7 +576,7 @@ p {
   border-bottom: 2px dotted #2c2c2c;
 }
 
-#mais-projetos div[id*=maps] {
+#mais-projetos div[id*="maps"] {
   display: none;
 }
 
