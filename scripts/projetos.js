@@ -27,7 +27,6 @@ function defineEvents() {
     });
   }
 
-  /*
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
     crasmMap.style.display = "none";
@@ -45,7 +44,6 @@ function defineEvents() {
     crasmMap.style.display = "none";
     crassaMap.style.display = "block";
   });
-  */
 
   for (i = 0; i < nCells; i++) {
     document.getElementById("item" + i).addEventListener("click", function() {
