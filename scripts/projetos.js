@@ -11,22 +11,6 @@ function defineEvents() {
   let crassa = document.getElementById("crassa");
   var nCells = 14; // Numero de cells no grid
 
-  var GMaps = ["maps-ceras", "maps-crasm", "maps-crassa"];
-
-  for (i = 0; i < GMaps.length; i++) {
-    console.log("wtf");
-    document.getElementById(GMaps[i]).addEventListener("click", function() {
-      for (j = 0; j < GMaps.length; j++) {
-        document.getElementById(GMaps[j]).style.display = "none";
-        console.log("bro");
-      }
-
-      console.log("dude");
-      document.getElementById(GMaps[i]).style.display = "block";
-    });
-  }
-
-  /*
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
     crasmMap.style.display = "none";
@@ -44,7 +28,6 @@ function defineEvents() {
     crasmMap.style.display = "none";
     crassaMap.style.display = "block";
   });
-  */
 
   for (i = 0; i < nCells; i++) {
     document.getElementById("item" + i).addEventListener("click", function() {
