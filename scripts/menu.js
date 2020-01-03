@@ -1,19 +1,16 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile_arrow");
-  let cliente = document.getElementById("area-cliente");
-  let submenu = document.getElementById("nav-sub");
+  let arrowSub = document.getElementById("sub_arrow");
 
   arrow.addEventListener("click", dropMenu);
-  cliente.addEventListener("mouseover", function() {
-    submenu.style.display = "block";
-  });
-  cliente.addEventListener("mouseout", function() {
-    submenu.style.display = "none";
-  });
+  arrowSub.addEventListener("click", dropSub);
 }
 
 var active = 0;
+var activeSub = 0;
 var elements = document.querySelectorAll(".nav-column");
+let submenu = document.getElementById("nav-sub");
+
 function dropMenu() {
   this.style.webkitTransitionDuration = "0.5s";
 
@@ -33,6 +30,26 @@ function dropMenu() {
       element.classList.add("nav-column");
     }
     active = 0;
+  }
+}
+
+function dropSub() {
+  this.style.webkitTransitionDuration = "0.5s";
+
+  if (activeSub == 0) {
+    this.style.webkitTransform = "rotate(180deg)";
+    submenu.style.display = "block";
+    submenu.classList.add("fade-in-element");
+    submenu.classList.remove("nav-column");
+
+    activeSub = 1;
+  } else {
+    this.style.webkitTransform = "rotate(0deg)";
+    submenu.classList.remove("fade-in-element");
+    submenu.classList.add("nav-column");
+    submenu.style.display = "none";
+
+    activeSub = 0;
   }
 }
 
