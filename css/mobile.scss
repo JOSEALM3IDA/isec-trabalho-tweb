@@ -231,6 +231,11 @@ $navpadding: 2px;
     color: $color-v-2;
     font-size: 30px;
   }
+  .flexcontainer {
+    .column {
+      border: 0;
+    }
+  }
 }
 
 #failed {

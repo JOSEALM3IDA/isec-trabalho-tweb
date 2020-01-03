@@ -255,6 +255,10 @@
   font-size: 30px;
 }
 
+#social .flexcontainer .column {
+  border: 0;
+}
+
 #failed {
   width: 100%;
 }
