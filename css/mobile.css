@@ -240,6 +240,17 @@
   grid-column-end: 3;
 }
 
+/* Recursos */
+#social {
+  font-size: 20px;
+  padding: 0.5em 0;
+}
+
+#social .bold {
+  color: #00a05b;
+  font-size: 30px;
+}
+
 #failed {
   width: 100%;
 }

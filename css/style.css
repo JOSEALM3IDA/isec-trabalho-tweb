@@ -745,6 +745,49 @@ p {
   margin: 0;
 }
 
+/* Recursos */
+#social {
+  margin: 5%;
+  color: #f2f2f2;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#social .bold {
+  color: #00a05b;
+  font-size: 45px;
+}
+
+#social .flexcontainer {
+  margin-top: 5%;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#social .flexcontainer a {
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#social .flexcontainer .clickable {
+  width: 200px;
+  background-color: white;
+  margin: auto;
+  display: block;
+  border: 5px solid #00000000;
+}
+
+#social .flexcontainer .redes {
+  overflow: hidden;
+  padding: 20px;
+  width: 500px;
+}
+
 /* why is this here 
 #testimonials {
   height: 100%;
@@ -868,6 +911,9 @@ p {
 
 /* Footer*/
 #main-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   background: #494949;
   color: #f2f2f2;
