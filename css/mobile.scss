@@ -251,7 +251,7 @@ $navpadding: 2px;
     #username,
     #useremail,
     #password {
-      min-width: 100%;
+      min-width: calc(100% - 4px);
     }
   }
 }

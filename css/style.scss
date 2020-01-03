@@ -719,7 +719,7 @@ p {
     select,
     textarea {
       width: 50%;
-      margin-left: 2px;
+      margin: 0 2px;
       padding: 10px;
       border: 1px $color-w-2 solid;
       height: 30px;
@@ -779,7 +779,7 @@ p {
   border-radius: 10px;
 }
 #loader {
-  border: 10px solid $color-w-1; 
+  border: 10px solid $color-w-1;
   border-top: 10px solid $color-v-4;
   border-radius: 50%;
   width: 50px;
@@ -839,8 +839,12 @@ p {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .fade-in-slide {

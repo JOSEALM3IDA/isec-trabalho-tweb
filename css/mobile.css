@@ -281,7 +281,7 @@
 #signup-form .form-group #username,
 #signup-form .form-group #useremail,
 #signup-form .form-group #password {
-  min-width: 100%;
+  min-width: calc(100% - 4px);
 }
 
 /* Animações */
