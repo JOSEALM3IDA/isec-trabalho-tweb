@@ -1,9 +1,18 @@
 function defineEvents() {
   let arrow = document.getElementById("mobile_arrow");
   let arrowSub = document.getElementById("sub_arrow");
+  let cliente = document.getElementById("area-cliente");
+  let navSub = document.getElementById("nav-sub");
 
   arrow.addEventListener("click", dropMenu);
   arrowSub.addEventListener("click", dropSub);
+
+  cliente.addEventListener("mouseover", function() {
+    navSub.style.display = "block";
+  });
+  cliente.addEventListener("mouseout", function() {
+    navSub.style.display = "none";
+  });
 }
 
 var active = 0;
