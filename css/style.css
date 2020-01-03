@@ -816,6 +816,7 @@ p {
 #signup-form .form-group select,
 #signup-form .form-group textarea {
   width: 50%;
+  margin-left: 2px;
   padding: 10px;
   border: 1px #c7c7c7 solid;
   height: 30px;
@@ -933,12 +934,12 @@ p {
 #registar_div {
   position: relative;
   margin: 0;
-  padding-bottom: 31.9vh;
+  padding-bottom: 30.8vh;
   min-height: 100%;
 }
 
 #cliente_div {
-  padding-bottom: 47.7vh;
+  padding-bottom: 47.45vh;
 }
 
 /* Animações */
