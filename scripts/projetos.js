@@ -11,6 +11,22 @@ function defineEvents() {
   let crassa = document.getElementById("crassa");
   var nCells = 14; // Numero de cells no grid
 
+  let GMaps = [
+    document.getElementById("maps-ceras"),
+    document.getElementById("maps-crasm"),
+    document.getElementById("maps-crassa")
+  ];
+
+  for (i = 0; i < GMaps.length; i++) {
+    GMaps[i].addEventListener("click", function() {
+      for (j = 0; j < GMaps.length; j++) {
+        GMaps[j].style.display = "none";
+      }
+
+      GMaps[i].style.display = "block";
+    });
+  }
+
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
     crasmMap.style.display = "none";
