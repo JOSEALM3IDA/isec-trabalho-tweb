@@ -25,7 +25,7 @@ function registar() {
   let dataArray = [];
   dataArray.push(username.value, password.value, useremail.value);
 
-  dataArray = "<h2>Data em   array: " + dataArray + "</h2>";
+  dataArray = "<h2>Data em array: " + dataArray + "</h2>";
 
   let newLink = document.createElement("a");
 

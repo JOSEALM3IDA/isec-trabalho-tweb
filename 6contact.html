@@ -70,12 +70,12 @@
           <span class="text-primary">Fale</span> Connosco
         </h1>
         <p>Por favor preencha o formulário abaixo para falar connosco.</p>
-        <form action="">
+        <form id="formContacto">
           <div class="flexcontainer">
             <div class="column">
               <div class="form-group">
-                <label for="name">Nome <span class="required">*</span></label>
-                <input type="text" name="name" id="name" required />
+                <label for="nome">Nome <span class="required">*</span></label>
+                <input type="text" name="nome" id="nome" required />
               </div>
               <div class="form-group">
                 <label for="gender">Género</label>
@@ -87,11 +87,11 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="id-card">Número do Documento de Identificação</label>
+                <label for="idCard">Número do Documento de Identificação</label>
                 <input
                   type="input"
-                  name="id-card"
-                  id="id-card"
+                  name="idCard"
+                  id="idCard"
                   pattern="[0-9]{8}"
                 />
               </div>
@@ -102,13 +102,13 @@
                 <input type="number" name="age" id="age" min="1" />
               </div>
               <div class="form-group">
-                <label for="address">Local de residência</label>
+                <label for="address">Local de Residência</label>
                 <input type="text" name="address" id="address" />
               </div>
               <div class="form-group">
-                <label for="email"
-                  >E-mail <span class="required">*</span></label
-                >
+                <label for="email">
+                  E-mail <span class="required">*</span>
+                </label>
                 <input type="email" name="email" id="email" required />
               </div>
             </div>
@@ -127,7 +127,7 @@
             <span>Os campos assinalados por <span class="required">*</span> são de
               preenchimento obrigatório.</span>
           </div>
-          <button type="submit" class="btn">Enviar</button>
+          <button type="" class="btn" id="contacto-btn">Enviar</button>
         </form>
       </div>
     </section>
@@ -176,5 +176,6 @@
       <p>QUERCUS &copy; 2020, All Rights Reserved</p>
     </footer>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/contactar.js"></script>
   </body>
 </html>
