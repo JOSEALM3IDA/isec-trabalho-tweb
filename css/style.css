@@ -153,6 +153,10 @@ p {
   color: #00a05b;
 }
 
+.text-white {
+  color: #f2f2f2;
+}
+
 .lead {
   font-size: 22px;
 }
@@ -899,14 +903,14 @@ p {
 }
 
 #loader {
-  border: 16px solid #f2f2f2;
-  border-top: 16px solid #007c46;
+  border: 10px solid #f2f2f2;
+  border-top: 10px solid #007c46;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
-  margin: 10px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  margin: 15px auto;
 }
 
 /* Footer*/

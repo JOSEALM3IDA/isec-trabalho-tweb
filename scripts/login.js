@@ -11,7 +11,7 @@ function defineEvents() {
 
 function login() {
   if (username.value == "admin" && password.value == "admin")
-    window.location.href = "1home.html";
+    window.location.href = "7.1.2welcome_user.html";
   else {
     failed.classList.remove("invisible");
     document.getElementById("cliente_div").style.paddingBottom = "43.3vh";
