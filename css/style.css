@@ -580,7 +580,7 @@ p {
   display: none;
 }
 
-#mais-projetos .map {
+#mais-projetos .map iframe {
   border: 5px solid #007c46;
   width: 100%;
 }

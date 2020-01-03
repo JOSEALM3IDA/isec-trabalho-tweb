@@ -504,8 +504,10 @@ p {
   }
 
   .map {
-    border: 5px solid $color-v-4;
-    width: 100%;
+    iframe {
+      border: 5px solid $color-v-4;
+      width: 100%;
+    }
   }
 }
 #eventos {
