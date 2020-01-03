@@ -12,35 +12,6 @@ function defineEvents() {
   });
 }
 
-/* function dropMenu() {
-  let navbar = document.getElementsByClassName("nav-column");
-
-  if (this.style.transform == "scaleY(-1)") {
-    this.style.transform = "scaleY(1)";
-    for (i = 0; i < navbar.length; i++) {
-      navbar[i].style.display = "none";
-    }
-  } else {
-    this.style.transform = "scaleY(-1)";
-
-    for (i = 0; i < navbar.length; i++) {
-      navbar[i].style.display = "inline";
-    }
-  }
-} */
-
-/*
-var x = window.matchMedia("(max-width: 768px)");
-
-
-function HiddenInTheBanks() {
-  if (x.matches) {
-    for (i = 0; i < navbar.length; i++) {
-      navbar[i].style.opacity = "0";
-    }
-  }
-}
-*/
 var active = 0;
 var elements = document.querySelectorAll(".nav-column");
 function dropMenu() {
@@ -66,9 +37,3 @@ function dropMenu() {
 }
 
 defineEvents();
-
-//HiddenInTheBanks();
-
-/* setTimeout(function {
-  navbar[i].style.display = "inline";
-}, 100); */
