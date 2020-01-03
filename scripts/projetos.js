@@ -9,7 +9,7 @@ function defineEvents() {
   let ceras = document.getElementById("ceras");
   let crasm = document.getElementById("crasm");
   let crassa = document.getElementById("crassa");
-  var nCells = 14; // Numero de cells no  css grid
+  var nCells = 14; // Numero de cells no css grid
 
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
@@ -49,7 +49,6 @@ function defineEvents() {
   }
 }
 
-var GMaps = ["maps-ceras", "maps-crasm", "maps-crassa"];
 var global;
 
 defineEvents();
