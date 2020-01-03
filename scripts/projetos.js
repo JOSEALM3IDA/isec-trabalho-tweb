@@ -11,22 +11,22 @@ function defineEvents() {
   let crassa = document.getElementById("crassa");
   var nCells = 14; // Numero de cells no grid
 
-  let GMaps = [
-    document.getElementById("maps-ceras"),
-    document.getElementById("maps-crasm"),
-    document.getElementById("maps-crassa")
-  ];
+  var GMaps = ["maps-ceras", "maps-crasm", "maps-crassa"];
 
   for (i = 0; i < GMaps.length; i++) {
-    GMaps[i].addEventListener("click", function() {
+    console.log("wtf");
+    document.getElementById(GMaps[i]).addEventListener("click", function() {
       for (j = 0; j < GMaps.length; j++) {
-        GMaps[j].style.display = "none";
+        document.getElementById(GMaps[j]).style.display = "none";
+        console.log("bro");
       }
 
-      GMaps[i].style.display = "block";
+      console.log("dude");
+      document.getElementById(GMaps[i]).style.display = "block";
     });
   }
 
+  /*
   ceras.addEventListener("click", function() {
     cerasMap.style.display = "block";
     crasmMap.style.display = "none";
@@ -44,6 +44,7 @@ function defineEvents() {
     crasmMap.style.display = "none";
     crassaMap.style.display = "block";
   });
+  */
 
   for (i = 0; i < nCells; i++) {
     document.getElementById("item" + i).addEventListener("click", function() {
@@ -65,6 +66,7 @@ function defineEvents() {
   }
 }
 
+var GMaps = ["maps-ceras", "maps-crasm", "maps-crassa"];
 var global;
 
 defineEvents();
