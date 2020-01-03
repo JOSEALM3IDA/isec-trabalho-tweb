@@ -48,7 +48,9 @@
 }
 
 #navbar #sub_arrow {
-  float: right;
+  position: relative;
+  top: -30px;
+  left: calc(50% - 20px);
 }
 
 #navbar a {

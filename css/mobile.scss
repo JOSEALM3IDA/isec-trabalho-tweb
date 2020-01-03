@@ -58,7 +58,9 @@ $navpadding: 2px;
   }
 
   #sub_arrow {
-    float: right;
+    position: relative;
+    top: -30px;
+    left: calc(50% - 20px);
   }
   a {
     padding: 5px;
