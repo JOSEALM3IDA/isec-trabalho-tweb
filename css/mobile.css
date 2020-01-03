@@ -25,7 +25,7 @@
 #navbar #nav-sub {
   position: relative;
   top: 0;
-  width: 100%;
+  width: 50%;
 }
 
 #navbar #nav-sub a {
@@ -37,13 +37,18 @@
   border-bottom: 1px dotted #494949;
 }
 
-#navbar #mobile_arrow {
+#navbar #mobile_arrow,
+#navbar #sub_arrow {
   display: block;
   margin: auto;
   padding: 5px 0px;
   -webkit-filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg) brightness(113%) contrast(90%);
           filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg) brightness(113%) contrast(90%);
   width: 15px;
+}
+
+#navbar #sub_arrow {
+  float: right;
 }
 
 #navbar a {

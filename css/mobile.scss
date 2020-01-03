@@ -37,7 +37,7 @@ $navpadding: 2px;
   #nav-sub {
     position: relative;
     top: 0;
-    width: 100%;
+    width: 50%;
     a {
       padding: 5px;
       border-bottom: 1px dotted $color-g-1;
@@ -47,13 +47,18 @@ $navpadding: 2px;
       }
     }
   }
-  #mobile_arrow {
+  #mobile_arrow,
+  #sub_arrow {
     display: block;
     margin: auto;
     padding: 5px 0px;
     filter: invert(98%) sepia(4%) saturate(106%) hue-rotate(276deg)
       brightness(113%) contrast(90%);
     width: 15px;
+  }
+
+  #sub_arrow {
+    float: right;
   }
   a {
     padding: 5px;

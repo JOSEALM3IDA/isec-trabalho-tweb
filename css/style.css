@@ -279,7 +279,8 @@ p {
   padding: 0 0.3vw;
 }
 
-#navbar #mobile_arrow {
+#navbar #mobile_arrow,
+#navbar #sub_arrow {
   display: none;
 }
 
@@ -437,6 +438,7 @@ p {
 
 #home_info .info-content h1 {
   font-size: 2em;
+  line-height: 1em;
 }
 
 #home_info .info-content p {
@@ -827,13 +829,13 @@ p {
 
 #contact-form .form-group input,
 #contact-form .form-group select,
-#contact-form .form-group textarea,
+#contact-form .form-group text,
 #login-form .form-group input,
 #login-form .form-group select,
-#login-form .form-group textarea,
+#login-form .form-group text,
 #signup-form .form-group input,
 #signup-form .form-group select,
-#signup-form .form-group textarea {
+#signup-form .form-group text {
   width: 50%;
   margin: 0 2px;
   padding: 10px;
@@ -843,13 +845,13 @@ p {
 
 #contact-form .form-group input:focus,
 #contact-form .form-group select:focus,
-#contact-form .form-group textarea:focus,
+#contact-form .form-group text:focus,
 #login-form .form-group input:focus,
 #login-form .form-group select:focus,
-#login-form .form-group textarea:focus,
+#login-form .form-group text:focus,
 #signup-form .form-group input:focus,
 #signup-form .form-group select:focus,
-#signup-form .form-group textarea:focus {
+#signup-form .form-group text:focus {
   outline: none;
   border-color: #00a05b;
 }

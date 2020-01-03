@@ -241,7 +241,8 @@ p {
   .container {
     padding: 0 0.3vw;
   }
-  #mobile_arrow {
+  #mobile_arrow,
+  #sub_arrow {
     display: none;
   }
   #logo {
@@ -364,6 +365,7 @@ p {
     order: 2;
     h1 {
       font-size: 2em;
+      line-height: 1em;
     }
     font-size: 20px;
     float: right;
@@ -725,7 +727,7 @@ p {
 
     input,
     select,
-    textarea {
+    text {
       width: 50%;
       margin: 0 2px;
       padding: 10px;
