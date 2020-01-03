@@ -8,12 +8,10 @@ function defineEvents() {
 }
 
 function mouseOvering() {
-    console.log("brah");
     this.style.borderColor = "#007c46";
 }
 
 function mouseOuting() {
-    console.log("nigga");
     this.style.borderColor = "#00000000";
 }
 
