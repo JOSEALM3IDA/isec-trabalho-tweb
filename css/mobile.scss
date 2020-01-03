@@ -240,7 +240,13 @@ $navpadding: 2px;
   }
   .flexcontainer {
     .column {
-      border: 0;
+      border-left: 0;
+      border-top: 1px solid white;
+    }
+    a {
+      margin-top: 5vw;
+      width: 30vw;
+      height: 30vw;
     }
   }
 }
