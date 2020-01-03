@@ -565,6 +565,7 @@ p {
 }
 
 #mais-projetos .mais-projetos .title {
+  font-weight: bold;
   pointer-events: none;
   position: relative;
   top: -3px;
@@ -576,11 +577,17 @@ p {
   border-bottom: 2px dotted #2c2c2c;
 }
 
-#mais-projetos div[id*="maps"] {
-  display: none;
+#mais-projetos .mais-projetos .subtitle {
+  color: #00a05b;
 }
 
 #mais-projetos .map iframe {
+  border: 5px solid #007c46;
+  width: 100%;
+}
+
+#mais-projetos #maps-tejo iframe,
+#mais-projetos #maps-serra iframe {
   border: 5px solid #007c46;
   width: 100%;
 }

@@ -487,6 +487,7 @@ p {
       }
     }
     .title {
+      font-weight: bold;
       pointer-events: none;
       position: relative;
       top: -3px;
@@ -497,13 +498,19 @@ p {
       text-align: center;
       border-bottom: 2px dotted $color-g-2;
     }
-  }
-
-  div[id*="maps"] {
-    display: none;
+    .subtitle {
+      color: $color-v-2;
+    }
   }
 
   .map {
+    iframe {
+      border: 5px solid $color-v-4;
+      width: 100%;
+    }
+  }
+  #maps-tejo,
+  #maps-serra {
     iframe {
       border: 5px solid $color-v-4;
       width: 100%;

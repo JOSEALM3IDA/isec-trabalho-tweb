@@ -170,6 +170,10 @@
   border-bottom: 1px solid #c7c7c7;
 }
 
+#mais-projetos {
+  text-align: center;
+}
+
 #eventos {
   font-size: 20px;
 }
