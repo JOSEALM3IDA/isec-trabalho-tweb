@@ -14,6 +14,7 @@ function defineEvents() {
     document.getElementById("item" + i).addEventListener("click", function() {
       info.scrollIntoView();
 
+      cerasMap.style.display = "none"; //temp fix
       global = this.id.slice(4);
       for (j = 0; j < nCells; j++) {
         projetos[j].style.display = "none";

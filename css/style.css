@@ -576,6 +576,15 @@ p {
   border-bottom: 2px dotted #2c2c2c;
 }
 
+#mais-projetos div[id*=maps] {
+  display: none;
+}
+
+#mais-projetos .map {
+  border: 5px solid #007c46;
+  width: 100%;
+}
+
 #eventos {
   margin: 5% 5%;
   color: #f2f2f2;

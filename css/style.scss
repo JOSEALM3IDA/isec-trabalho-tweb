@@ -497,6 +497,15 @@ p {
       border-bottom: 2px dotted $color-g-2;
     }
   }
+
+  div[id*=maps] {
+    display: none;
+  }
+
+  .map {
+    border: 5px solid $color-v-4;
+    width: 100%;
+  }
 }
 #eventos {
   margin: 5% 5%;
