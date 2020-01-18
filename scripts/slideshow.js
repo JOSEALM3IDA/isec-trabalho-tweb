@@ -1,6 +1,6 @@
 var slides = document.querySelectorAll(".invisible");
 var i = 0;
-var slide_imgs = 4; // Numero de fotos a apresentar no slideshow
+var slide_imgs = 4; // Numero de fotos a apresentar no slideshow editar comentário
 
 function slideshow() {
   slides[i].classList.add("fade-out-slide");
