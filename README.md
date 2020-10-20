@@ -1,7 +1,7 @@
 Trabalho de TWEB Ângelo & Zé
 ==========================
 
-[Preview do trabalho](josealm3ida.github.io/twebtrabalho/)
+[Preview do trabalho](https://josealm3ida.github.io/twebtrabalho/)
 ==========================
 
 Informação sobre o template usado em baixo.
