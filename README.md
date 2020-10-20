@@ -1,13 +1,13 @@
 Trabalho de TWEB Ângelo & Zé
 ==========================
 
-[Preview do trabalho](https://josealm3ida.github.io/twebtrabalho/)
+[Preview do Trabalho](https://josealm3ida.github.io/twebtrabalho/)
 ==========================
 
 Informação sobre o template usado em baixo.
 ----------------------------------------------------------------
 
-[Preview do template usado](https://github.com/Shvana/Hotel_Website)
+[Template Usado](https://github.com/Shvana/Hotel_Website)
 ==========================
 
 ![ISEC Badge1](https://img.shields.io/badge/ISEC-TWEB-red)
