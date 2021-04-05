@@ -1,7 +1,7 @@
 Trabalho de TWEB Ângelo & Zé
 ==========================
 
-[Preview do Trabalho](https://josealm3ida.github.io/twebtrabalho/)
+[Preview do Trabalho](https://josealm3ida.github.io/isec-trabalho-tweb/)
 ==========================
 
 Informação sobre o template usado em baixo.
